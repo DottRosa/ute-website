@@ -16,5 +16,8 @@
 
 ### Risorse
 
+Boostrap (griglia) - https://www.w3schools.com/bootstrap/
+Font awesome (icone) - http://fontawesome.io/icons/
+
 
 
