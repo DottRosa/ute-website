@@ -32,15 +32,19 @@ Pagine del sito
 
 Componenti
 1. Newsletter
+
 2. Scarimento modulistica per iscrizione
+
 
 
 ### Risorse
 
 Boostrap (griglia) - https://www.w3schools.com/bootstrap/
+
 Font awesome (icone) - http://fontawesome.io/icons/
 
 ### Genialate
 
 1. Usare la newsletter per far conoscere il sito
+
 
