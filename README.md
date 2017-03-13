@@ -60,6 +60,23 @@ Backoffice
 8. Gestione dell'archivio
 
 
+### Database
+
+* Singoli corsi
+
+* Docenti
+
+* News
+
+* Eventi
+
+* Lezioni fuori sede
+
+* Archivio
+
+* Newsletter
+
+
 
 ### Risorse
 
