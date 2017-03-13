@@ -21,9 +21,9 @@ Pagine del sito
 
 3. Singolo corso
 
-4. Organico
+4. Docenti
 
-5. Docente
+5. Singolo docente (Necessario?)
 
 6. Lezioni fuori sede (gite)
 
@@ -36,6 +36,28 @@ Componenti
 1. Newsletter
 
 2. Scarimento modulistica per iscrizione
+
+3. Calendario settimanale
+
+4. Contatti
+
+Backoffice
+
+1. Creazione newsletter
+
+2. Aggiornamento singolo corso
+
+3. Aggiornamento docenti
+
+4. Creazione news
+
+5. Creazione eventi
+
+6. Creazione lezioni fuori sede
+
+7. Accesso alle analytics
+
+8. Gestione dell'archivio
 
 
 
