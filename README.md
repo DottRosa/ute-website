@@ -96,6 +96,8 @@ Boostrap (griglia) - https://www.w3schools.com/bootstrap/
 
 Font awesome (icone) - http://fontawesome.io/icons/
 
+Palette di colori (palette) - https://coolors.co/bdc667-77966d-626d58-544343-56282d
+
 ### Genialate
 
 * Usare la newsletter per far conoscere il sito (Ele)
