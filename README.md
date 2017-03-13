@@ -15,12 +15,19 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 Pagine del sito
 1. Homepage
+
 2. Chi siamo
+
 3. News
+
 4. Corsi
+
 5. Singolo corso
+
 6. Lezioni fuori sede (gite)
+
 7. Eventi
+
 8. Contatti
 
 Componenti
