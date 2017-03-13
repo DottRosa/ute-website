@@ -96,6 +96,6 @@ Font awesome (icone) - http://fontawesome.io/icons/
 
 ### Genialate
 
-1. Usare la newsletter per far conoscere il sito
+* Usare la newsletter per far conoscere il sito (Ele)
 
 
