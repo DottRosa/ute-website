@@ -12,14 +12,20 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 
 ### Albero del sito
-1 - Homepage
-2 - Chi siamo
-3 - News
-Corsi
-Singolo corso
-Lezioni fuori sede (gite)
-Eventi
 
+Pagine del sito
+1. Homepage
+2. Chi siamo
+3. News
+4. Corsi
+5. Singolo corso
+6. Lezioni fuori sede (gite)
+7. Eventi
+8. Contatti
+
+Componenti
+1. Newsletter
+2. Scarimento modulistica per iscrizione
 
 
 ### Risorse
@@ -27,5 +33,7 @@ Eventi
 Boostrap (griglia) - https://www.w3schools.com/bootstrap/
 Font awesome (icone) - http://fontawesome.io/icons/
 
+### Genialate
 
+1. Usare la newsletter per far conoscere il sito
 
