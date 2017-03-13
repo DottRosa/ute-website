@@ -37,7 +37,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 8. News
 
-[Albero del sito]("Progettazione/alberoSito.png")
+![Albero del sito]("Progettazione/alberoSito.png")
 
 #### Componenti
 
