@@ -7,13 +7,19 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 ### Requisiti
 
+* L'utente deve poter prendere visione di tutti i corsi
+
+* L'utente deve poter scaricare la modulistica di iscrizione
+
+* Le news devono essere visibili e immediate
+
 
 ### Casi d'uso
 
 
 ### Albero del sito
 
-Pagine del sito
+#### Pagine del sito
 
 1. Homepage
 
@@ -31,33 +37,33 @@ Pagine del sito
 
 8. News
 
-Componenti
+#### Componenti
 
-1. Newsletter
+* Newsletter
 
-2. Scarimento modulistica per iscrizione
+* Scarimento modulistica per iscrizione
 
-3. Calendario settimanale
+* Calendario settimanale
 
-4. Contatti
+* Contatti
 
-Backoffice
+#### Backoffice
 
-1. Creazione newsletter
+* Creazione newsletter
 
-2. Aggiornamento singolo corso
+* Aggiornamento singolo corso
 
-3. Aggiornamento docenti
+* Aggiornamento docenti
 
-4. Creazione news
+* Creazione news
 
-5. Creazione eventi
+* Creazione eventi
 
-6. Creazione lezioni fuori sede
+* Creazione lezioni fuori sede
 
-7. Accesso alle analytics
+* Accesso alle analytics
 
-8. Gestione dell'archivio
+* Gestione dell'archivio
 
 
 ### Database
@@ -76,6 +82,10 @@ Backoffice
 
 * Newsletter
 
+
+### Dettagli
+
+* Il nome deve essere: "UTE DEL SANVITESE"
 
 
 ### Risorse
