@@ -37,7 +37,6 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 8. News
 
-![Albero del sito]("https://raw.githubusercontent.com/DottRosa/ute-website/master/Progettazione/alberoSito.png")
 
 #### Componenti
 
