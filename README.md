@@ -102,6 +102,8 @@ Palette di colori (palette) - https://coolors.co
 
 Gestione newsletter (newsletter) - https://mailchimp.com/pricing/entrepreneur/
 
+Dominio (Aruba) - https://hosting.aruba.it/hosting/pacchetti-linux.aspx
+
 ### Genialate
 
 * Usare la newsletter per far conoscere il sito (Ele)
