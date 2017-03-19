@@ -10,21 +10,21 @@ Marco Rosa
 marco1rosa@gmail.com
 
 
-###OGGETTO: CREAZIONE DEL SITO WEB UTE SANVITESE E RELATIVA PAGINA DI GESTIONE
+### OGGETTO: CREAZIONE DEL SITO WEB UTE SANVITESE E RELATIVA PAGINA DI GESTIONE
 
 Il progetto includerà:
 
 * pagine web utili a rappresentare tutte le informazioni necessarie ai visitatori. Le pagine in questione sono:
 
-Homepage
-Docenti
-Corsi
-Singolo corso
-Eventi
-News
-Lezioni fuori sede
+1. Homepage
+2. Docenti
+3. Corsi
+4. Singolo corso
+5. Eventi
+6. News
+7. Lezioni fuori sede
 
-un’area di gestione del sito che permetterà di creare, modificare ed eliminare contenuti:
+* un’area di gestione del sito che permetterà di creare, modificare ed eliminare contenuti:
 
 Gestione dei singoli corsi
 Creazione di un nuovo piano annuale
