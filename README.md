@@ -100,6 +100,8 @@ Font awesome (icone) - http://fontawesome.io/icons/
 
 Palette di colori (palette) - https://coolors.co
 
+Gestione newsletter (newsletter) - https://mailchimp.com/pricing/entrepreneur/
+
 ### Genialate
 
 * Usare la newsletter per far conoscere il sito (Ele)
