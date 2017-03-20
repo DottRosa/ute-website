@@ -43,9 +43,9 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 #### Componenti
 
-* Newsletter
+* Newsletter (per il momento no)
 
-* Scarimento modulistica per iscrizione
+* Scarimento modulistica per iscrizione (per il momento no)
 
 * Calendario settimanale
 
@@ -74,7 +74,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * Singoli corsi
 
-* Docenti
+* Docenti (nome, cognome, professione)
 
 * News
 
@@ -84,12 +84,16 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * Archivio
 
-* Newsletter
+* Newsletter (per il momento no)
 
 
 ### Dettagli
 
 * Il nome deve essere: "UTE DEL SANVITESE" -> www.utesanvitese.it (?)
+
+* Ci sono corsi che possono ripetersi se c'è richiesta
+
+* Se due corsi simili (Francese 1 e 2) non hanno abbastanza iscritti, vengono fusi in uno solo
 
 
 ### Risorse
