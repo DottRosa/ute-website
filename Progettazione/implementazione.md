@@ -6,7 +6,24 @@
 
 * Barra di ricerca
 
-* Suddivisione per tipologia e durata
+* Filtro per durata (annuale, breve, serale)
+
+* Filtro per tipologia
+    * arte
+    * attività motorie
+    * benessere psicologico
+    * cucina
+    * fai da te
+    * informatica
+    * laboratori artistici
+    * laboratori linguistici
+    * laboratori teatrali
+    * letteratura
+    * lingue
+    * musica e cinema
+    * scienze umanistiche e sociali
+    * storia
+    * vari
 
 * Inizialmente in ordine alfabetico
 
