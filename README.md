@@ -100,6 +100,8 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 Boostrap (griglia) - https://www.w3schools.com/bootstrap/
 
+Bootstrap (templates) - https://startbootstrap.com/template-categories/all/
+
 Font awesome (icone) - http://fontawesome.io/icons/
 
 Palette di colori (palette) - https://coolors.co
