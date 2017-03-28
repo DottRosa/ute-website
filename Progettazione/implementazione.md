@@ -53,6 +53,13 @@ Richiede l'inserimento di tutti i corsi. Verranno dati dei suggerimenti a partir
 
 #### Creazione gite
 
+#### Diritto all'oblio (se vogliono eliminare un account, bisogna poterlo fare senza avere ripercussioni)
+
+
+## BACKOFFICE (per noi)
+
+#### Log delle attività di chi inserisce i dati: che operazioni ha fatto e quando
+
 
 ## DATABASE
 
