@@ -106,6 +106,8 @@ Font awesome (icone) - http://fontawesome.io/icons/
 
 Palette di colori (palette) - https://coolors.co
 
+Codetheory (ispirazioni) - http://codetheory.in
+
 Dominio (Aruba) - https://hosting.aruba.it/hosting/pacchetti-linux.aspx
 
 Google font (font) - https://fonts.google.com
