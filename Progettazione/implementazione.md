@@ -27,6 +27,8 @@
 
 * Inizialmente in ordine alfabetico
 
+* Si prendono tutti i corsi dal DB e se ne mostrano solo 10-15, così non si carica troppo l'html. Per navigare si usa una barra con le pagine. Quando si applica un filtro si richiama la pagina stessa con in get le info necessarie per una nuova interrogazione che restituisce i corsi scelti.
+
 #### Singolo corso
 
 * Riceve in get l'id del corso selezionato nella pagina "Corsi" e reperisce le informazioni
