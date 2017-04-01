@@ -63,4 +63,6 @@ Richiede l'inserimento di tutti i corsi. Verranno dati dei suggerimenti a partir
 
 ## DATABASE
 
-Tre tabelle per i corsi divisi in base alla durata (Annuali, Brevi, Serali). Ogni corso ha un id nel formato: abcdef1234
+Tre tabelle per i corsi divisi in base alla durata (Annuali, Brevi, Serali). 
+
+(Ogni corso ha un id nel formato: abcdef1234) --> Perchè? Non basta usare un id con autoincrement?
