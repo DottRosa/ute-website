@@ -112,6 +112,8 @@ Dominio (Aruba) - https://hosting.aruba.it/hosting/pacchetti-linux.aspx
 
 Google font (font) - https://fonts.google.com
 
+Animate.css (animazioni) - https://daneden.github.io/animate.css/
+
 ### Genialate
 
 * Usare la newsletter per far conoscere il sito (Ele)
