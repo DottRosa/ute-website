@@ -2,7 +2,9 @@
 
 ## CREAZIONE ID DEI CORSI
 
-```
-function generaId(corso){
-  
+```php
+  function prova(){
+    $i = 0;
+    return "Ciao";
+  }
 ```
