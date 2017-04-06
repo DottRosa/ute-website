@@ -9,7 +9,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * L'utente deve poter prendere visione di tutti i corsi
 
-* ~~__L'utente deve poter scaricare la modulistica di iscrizione__~~
+* ~~_L'utente deve poter scaricare la modulistica di iscrizione_~~
 
 * Le news devono essere visibili e immediate
 
@@ -42,9 +42,9 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 #### Componenti
 
-* ~~__Newsletter__~~
+* ~~_Newsletter_~~
 
-* ~~__Scarimento modulistica per iscrizione__~~
+* ~~_Scarimento modulistica per iscrizione_~~
 
 * Calendario settimanale
 
@@ -52,7 +52,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 #### Backoffice
 
-* ~~__Creazione newsletter__~~
+* ~~_Creazione newsletter_~~
 
 * Aggiornamento singolo corso
 
@@ -83,7 +83,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * Archivio
 
-* ~~__Newsletter__~~
+* ~~_Newsletter_~~
 
 
 ### Dettagli
@@ -127,7 +127,7 @@ Come permettere alla segreteria di accedere all'area di backoffice senza indurre
 
 Quali elementi una volta aggiunti devono SEMPRE apparire anche nelle news? In tal caso è possibile fare l'inserimento automatico senza dover aggiornare anche la sezione news?
 
-~~__Quanta è la modulistica scaricabile e in che sezione metterla? Se è tanta è meglio creare una sezione apposita?__~~
+~~_Quanta è la modulistica scaricabile e in che sezione metterla? Se è tanta è meglio creare una sezione apposita?_~~
 
 
 
