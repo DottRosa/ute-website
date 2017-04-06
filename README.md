@@ -26,17 +26,17 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 1. Homepage
 
-2. Corsi
+1. Corsi
 
-3. Singolo corso
+1. Singolo corso
 
-4. Docenti
+1. Docenti
 
-5. Lezioni fuori sede (gite)
+1. Lezioni fuori sede (gite)
 
-6. Eventi
+1. Eventi
 
-7. News
+1. News
 
 
 
