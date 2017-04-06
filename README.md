@@ -9,7 +9,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * L'utente deve poter prendere visione di tutti i corsi
 
-* ~~L'utente deve poter scaricare la modulistica di iscrizione~~
+* ~~__L'utente deve poter scaricare la modulistica di iscrizione__~~
 
 * Le news devono essere visibili e immediate
 
@@ -42,9 +42,9 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 #### Componenti
 
-* ~~Newsletter~~
+* ~~__Newsletter__~~
 
-* ~~Scarimento modulistica per iscrizione~~
+* ~~__Scarimento modulistica per iscrizione__~~
 
 * Calendario settimanale
 
@@ -52,7 +52,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 #### Backoffice
 
-* ~~Creazione newsletter~~
+* ~~__Creazione newsletter__~~
 
 * Aggiornamento singolo corso
 
@@ -83,7 +83,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * Archivio
 
-* ~~Newsletter~~
+* ~~__Newsletter__~~
 
 
 ### Dettagli
@@ -120,14 +120,14 @@ Animate.css (animazioni) - https://daneden.github.io/animate.css/
 
 * Usare la newsletter per far conoscere il sito (Ele)
 
-### Domande e proposte di sol
+### Domande e soluzioni
 
 Come permettere alla segreteria di accedere all'area di backoffice senza indurre gli utenti a pensare che sia necessario un login? Detta in altri termini: come rendere nascosto l'accesso al backoffice ma al contempo semplice da accedervi?
 * creare due siti web, uno pubblico e accessibile a tutti gli utenti, uno per l'area amministrativa non visibile se effettuata una ricerca su google, in cui si effettua un login in homepage.
 
 Quali elementi una volta aggiunti devono SEMPRE apparire anche nelle news? In tal caso è possibile fare l'inserimento automatico senza dover aggiornare anche la sezione news?
 
-~~Quanta è la modulistica scaricabile e in che sezione metterla? Se è tanta è meglio creare una sezione apposita?~~
+~~__Quanta è la modulistica scaricabile e in che sezione metterla? Se è tanta è meglio creare una sezione apposita?__~~
 
 
 
