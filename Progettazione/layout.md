@@ -1,4 +1,4 @@
-Spunti presi da bootstrap:
+Spunti:
 
 * Home page? http://getbootstrap.com/examples/carousel/
 
