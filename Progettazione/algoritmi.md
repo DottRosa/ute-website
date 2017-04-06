@@ -1,6 +1,5 @@
 # ALGORITMI
 
-## CREAZIONE ID DEI CORSI
 
 ```php
   function prova(){
