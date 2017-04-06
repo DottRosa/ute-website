@@ -9,15 +9,16 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * L'utente deve poter prendere visione di tutti i corsi
 
-* L'utente deve poter scaricare la modulistica di iscrizione
+* ~~L'utente deve poter scaricare la modulistica di iscrizione~~
 
 * Le news devono essere visibili e immediate
 
 * Necessario uno storico dei corsi di tutti gli anni scaricabile per la segreteria
 
+* Gli amministratori devono poter gestire la creazione/modifica/cancellazione di contenuti
 
-### Casi d'uso
 
+---
 
 ### Albero del sito
 
@@ -31,21 +32,19 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 4. Docenti
 
-5. Singolo docente (Necessario?)
+5. Lezioni fuori sede (gite)
 
-6. Lezioni fuori sede (gite)
+6. Eventi
 
-7. Eventi
-
-8. News
+7. News
 
 
 
 #### Componenti
 
-* Newsletter (per il momento no)
+* ~~Newsletter~~
 
-* Scarimento modulistica per iscrizione (per il momento no)
+* ~~Scarimento modulistica per iscrizione~~
 
 * Calendario settimanale
 
@@ -53,7 +52,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 #### Backoffice
 
-* Creazione newsletter
+* ~~Creazione newsletter~~
 
 * Aggiornamento singolo corso
 
@@ -84,7 +83,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * Archivio
 
-* Newsletter (per il momento no)
+* ~~Newsletter~~
 
 
 ### Dettagli
@@ -95,6 +94,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * Se due corsi simili (Francese 1 e 2) non hanno abbastanza iscritti, vengono fusi in uno solo
 
+---
 
 ### Risorse
 
@@ -114,6 +114,8 @@ Google font (font) - https://fonts.google.com
 
 Animate.css (animazioni) - https://daneden.github.io/animate.css/
 
+---
+
 ### Genialate
 
 * Usare la newsletter per far conoscere il sito (Ele)
@@ -123,15 +125,9 @@ Animate.css (animazioni) - https://daneden.github.io/animate.css/
 Come permettere alla segreteria di accedere all'area di backoffice senza indurre gli utenti a pensare che sia necessario un login? Detta in altri termini: come rendere nascosto l'accesso al backoffice ma al contempo semplice da accedervi?
 * creare due siti web, uno pubblico e accessibile a tutti gli utenti, uno per l'area amministrativa non visibile se effettuata una ricerca su google, in cui si effettua un login in homepage.
 
-Quante informazini sui docenti è necessario memorizzare? E' necessaria una pagina per docente o un'unica pagina contenente tutti? 
+Quali elementi una volta aggiunti devono SEMPRE apparire anche nelle news? In tal caso è possibile fare l'inserimento automatico senza dover aggiornare anche la sezione news?
 
-Nel calcolo dei costi ci sono alcune pagine uguali?
-* lezioni fuori sede ed eventi (?)
-* ogni corso è uguale ad un altro
-
-Quali elementi una volta aggiunti devono SEMPRE apparire anche nelle news? in tal caso è possibile fare l'inserimento automatico senza dover aggiornare anche la sezione news?
-
-Quanta è la modulistica scaricabile e in che sezione metterla? se è tanta è meglio creare una sezione apposita?
+~~Quanta è la modulistica scaricabile e in che sezione metterla? Se è tanta è meglio creare una sezione apposita?~~
 
 
 
