@@ -98,7 +98,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 ### Risorse
 
-Boostrap (griglia) - https://www.w3schools.com/bootstrap/
+Bootstrap (griglia) - https://www.w3schools.com/bootstrap/
 
 Bootstrap (templates) - https://startbootstrap.com/template-categories/all/
 
@@ -113,6 +113,10 @@ Dominio (Aruba) - https://hosting.aruba.it/hosting/pacchetti-linux.aspx
 Google font (font) - https://fonts.google.com
 
 Animate.css (animazioni) - https://daneden.github.io/animate.css/
+
+Bootstrap Carousel (slideshow per news homepage) - https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+
+Vex (alert fighi in js) - http://github.hubspot.com/vex/docs/welcome/
 
 ---
 
