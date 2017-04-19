@@ -118,6 +118,8 @@ Bootstrap Carousel (slideshow per news homepage) - https://www.w3schools.com/boo
 
 Vex (alert fighi in js) - http://github.hubspot.com/vex/docs/welcome/
 
+Freepik (immagini vettoriali) - http://www.freepik.com/popular-vectors
+
 ---
 
 ### Genialate
