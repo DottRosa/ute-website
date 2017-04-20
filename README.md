@@ -120,6 +120,8 @@ Vex (alert fighi in js) - http://github.hubspot.com/vex/docs/welcome/
 
 Freepik (immagini vettoriali) - http://www.freepik.com/popular-vectors
 
+Clusterize.js (Per mostrare efficacemente big data) - https://clusterize.js.org
+
 ---
 
 ### Genialate
