@@ -138,6 +138,22 @@ Quali elementi una volta aggiunti devono SEMPRE apparire anche nelle news? In ta
 ~~_Quanta è la modulistica scaricabile e in che sezione metterla? Se è tanta è meglio creare una sezione apposita?_~~
 
 
+* Dominio? 
+
+* Risorse? Dati dei corsi, ecc. Come ci forniscono i dati?
+
+* Come strutturare le varie pagine (layout)?
+
+* Come fare storico?
+
+* CORSI - Layout con box per categoria e filtri di ricerca
+
+* SINGOLO CORSO - Che dettagli?
+
+* DOCENTI - Inserire le materie che svolge?
+
+* LEZIONI FUORI SEDE - Che dettagli? Vogliono mettere foto?
+
 
 
 
