@@ -153,12 +153,5 @@ Clusterize.js (Per mostrare efficacemente big data) - https://clusterize.js.org
 
 ---
 
-```css
-   del{
-   color:red;
-   }
-```
-
-
 
 
