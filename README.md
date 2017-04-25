@@ -30,7 +30,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 1. Singolo corso
 
-1. Docenti
+1. ~~_Docenti_~~
 
 1. Lezioni fuori sede (gite)
 
@@ -66,7 +66,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * Accesso alle analytics
 
-* Gestione dell'archivio
+* ~~_Gestione dell'archivio_~~
 
 
 ### Database
@@ -81,18 +81,47 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 * Lezioni fuori sede
 
-* Archivio
+* ~~_Archivio_~~
 
 * ~~_Newsletter_~~
 
 
-### Dettagli
+### Requisiti
 
-* Il nome deve essere: "UTE DEL SANVITESE" -> www.utesanvitese.it (?)
+1. Il nome deve essere: "UTE DEL SANVITESE" -> www.utesanvito.it
 
-* Ci sono corsi che possono ripetersi se c'è richiesta
+1. Ci sono corsi che possono ripetersi se c'è richiesta
 
-* Se due corsi simili (Francese 1 e 2) non hanno abbastanza iscritti, vengono fusi in uno solo
+1. Se due corsi simili (Francese 1 e 2) non hanno abbastanza iscritti, vengono fusi in uno solo
+
+1. Inserire gli sponsor (presenti nel libretto)
+
+1. I corsi sono molto dinamici e cambiano quasi tutti ogni anno, quindi il piano annuale va creato ogni volta da 0
+
+1. Deve essere possibile lavorare al piano annuale in più giorni
+
+1. Pianeta uomo e donna?
+
+1. Ogni corso deve avere tutti i dettagli presenti nel libretto
+
+1. Cliccando sul nome del docente (presente in un corso) si possono sapere tutti i corsi che tiene
+
+1. Le lezioni fuori sede e gli eventi possono essere aggiunti (ma sono già presenti nel libretto)
+
+1. Considerare immagini relative ad ogni evento e lezione fuori sede
+
+1. Per le news si usa un set base di icone create da noi per le varie categorie
+
+1. L'homepage deve contenere:
+
+  * Slider con le news
+  
+  * Calendario settimanale
+  
+  * Mappa
+  
+  * Presentazione ute
+  
 
 ---
 
@@ -124,35 +153,6 @@ Clusterize.js (Per mostrare efficacemente big data) - https://clusterize.js.org
 
 ---
 
-### Genialate
-
-* Usare la newsletter per far conoscere il sito (Ele)
-
-### Domande e soluzioni
-
-Come permettere alla segreteria di accedere all'area di backoffice senza indurre gli utenti a pensare che sia necessario un login? Detta in altri termini: come rendere nascosto l'accesso al backoffice ma al contempo semplice da accedervi?
-* creare due siti web, uno pubblico e accessibile a tutti gli utenti, uno per l'area amministrativa non visibile se effettuata una ricerca su google, in cui si effettua un login in homepage.
-
-Quali elementi una volta aggiunti devono SEMPRE apparire anche nelle news? In tal caso è possibile fare l'inserimento automatico senza dover aggiornare anche la sezione news?
-
-~~_Quanta è la modulistica scaricabile e in che sezione metterla? Se è tanta è meglio creare una sezione apposita?_~~
-
-
-* Dominio? 
-
-* Risorse? Dati dei corsi, ecc. Come ci forniscono i dati?
-
-* Come strutturare le varie pagine (layout)?
-
-* Come fare storico?
-
-* CORSI - Layout con box per categoria e filtri di ricerca
-
-* SINGOLO CORSO - Che dettagli?
-
-* DOCENTI - Inserire le materie che svolge?
-
-* LEZIONI FUORI SEDE - Che dettagli? Vogliono mettere foto?
 
 
 
