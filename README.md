@@ -152,6 +152,7 @@ Vex (alert fighi in js) - http://github.hubspot.com/vex/docs/welcome/
 
 Freepik (immagini vettoriali) - http://www.freepik.com/popular-vectors
 * http://www.freepik.com/free-vector/colorful-watercolor-background_1192241.htm
+* http://it.freepik.com/vettori-gratuito/libro-dell-39-annata-schizzi-sfondo_1070344.htm
 
 Clusterize.js (Per mostrare efficacemente big data) - https://clusterize.js.org
 
