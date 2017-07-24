@@ -30,6 +30,8 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 1. Singolo corso
 
+1. Contatti
+
 1. ~~_Docenti_~~
 
 1. Lezioni fuori sede (gite)
