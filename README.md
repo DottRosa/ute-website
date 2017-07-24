@@ -141,8 +141,7 @@ Codetheory (ispirazioni) - http://codetheory.in
 
 Dominio (Aruba) - https://hosting.aruba.it/hosting/pacchetti-linux.aspx
 
-Google font (font) 
-* https://fonts.google.com 
+Google font (font) - https://fonts.google.com 
 * https://fonts.google.com/specimen/Montserrat
 
 Animate.css (animazioni) - https://daneden.github.io/animate.css/
@@ -152,6 +151,7 @@ Bootstrap Carousel (slideshow per news homepage) - https://www.w3schools.com/boo
 Vex (alert fighi in js) - http://github.hubspot.com/vex/docs/welcome/
 
 Freepik (immagini vettoriali) - http://www.freepik.com/popular-vectors
+* http://www.freepik.com/free-vector/colorful-watercolor-background_1192241.htm
 
 Clusterize.js (Per mostrare efficacemente big data) - https://clusterize.js.org
 
