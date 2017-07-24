@@ -141,7 +141,9 @@ Codetheory (ispirazioni) - http://codetheory.in
 
 Dominio (Aruba) - https://hosting.aruba.it/hosting/pacchetti-linux.aspx
 
-Google font (font) - https://fonts.google.com - https://fonts.google.com/specimen/Source+Sans+Pro
+Google font (font) - https://fonts.google.com 
+                   - https://fonts.google.com/specimen/Source+Sans+Pro
+                   - https://fonts.google.com/specimen/Spectral
 
 Animate.css (animazioni) - https://daneden.github.io/animate.css/
 
