@@ -153,11 +153,12 @@ Vex (alert fighi in js) - http://github.hubspot.com/vex/docs/welcome/
 Freepik (immagini vettoriali) - http://www.freepik.com/popular-vectors
 * http://www.freepik.com/free-vector/colorful-watercolor-background_1192241.htm
 * http://it.freepik.com/vettori-gratuito/libro-dell-39-annata-schizzi-sfondo_1070344.htm
+* http://www.freepik.com/free-photo/close-up-of-pen-in-the-workplace_945046.htm#term=calendar&page=7&position=27
 
 Clusterize.js (Per mostrare efficacemente big data) - https://clusterize.js.org
 
 Mappa (maps) - https://snazzymaps.com/
-* https://snazzymaps.com/style/113727/white-aluminium
+
 
 ---
 
