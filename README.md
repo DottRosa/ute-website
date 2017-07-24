@@ -159,6 +159,7 @@ Clusterize.js (Per mostrare efficacemente big data) - https://clusterize.js.org
 
 Mappa (maps) - https://snazzymaps.com/
 * https://snazzymaps.com/style/8309/asdf
+* https://snazzymaps.com/style/2692/wmc3
 
 ---
 
