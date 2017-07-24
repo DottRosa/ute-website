@@ -156,6 +156,9 @@ Freepik (immagini vettoriali) - http://www.freepik.com/popular-vectors
 
 Clusterize.js (Per mostrare efficacemente big data) - https://clusterize.js.org
 
+Mappa (maps) - https://snazzymaps.com/
+* https://snazzymaps.com/style/113727/white-aluminium
+
 ---
 
 
