@@ -30,7 +30,7 @@ Sito informativo per ridurre il carico di lavoro per la segreteria (chiamate con
 
 1. Singolo corso
 
-1. Contatti
+1. Info e contatti
 
 1. ~~_Docenti_~~
 
