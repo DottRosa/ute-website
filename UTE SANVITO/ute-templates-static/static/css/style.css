@@ -85,6 +85,11 @@ main h1{
     background-color:rgba(255,255,255,0.9);
 }
 
+.no-padding{
+    padding-left:0;
+    padding-right:0;
+}
+
 
 /* --------------------------- HEADER --------------------------- */
 
@@ -268,4 +273,36 @@ footer a{
 
 #map{
     height:400px;
+}
+
+#dove-siamo>div:nth-child(3)>div:first-child{
+    padding-top:30px;
+}
+
+
+@media all and (min-width:992px){   /* "Dove siamo" versione desktop */
+    #dove-siamo>div:nth-child(3){   
+        height:400px;
+    }
+    
+}
+
+
+@media all and (max-width:992px){   /* "Dove siamo" versione mobile */
+    #dove-siamo>div:nth-child(3){   
+        height:auto;
+    }    
+    
+    #dove-siamo>div:nth-child(3)>div:last-child{
+        padding-bottom:30px;
+    }
+}
+
+
+
+#dove-siamo{
+    background-image:url(../images/mappa4.jpg);
+    background-size:cover;
+    background-position:top;
+
 }
