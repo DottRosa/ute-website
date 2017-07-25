@@ -1,0 +1,266 @@
+/* GENERALI */
+
+*{
+    margin:0;
+    padding:0;
+    font-family:Montserrat-Regular, sans-serif;
+}
+
+.bold{
+    font-family:Montserrat-SemiBold, sans-serif;
+}
+
+.italic{
+    font-family:Montserrat-Italic, sans-serif;
+}
+
+.text-white{
+    color:white !important;
+}
+
+.center{
+    text-align:center;
+}
+
+.right{
+    text-align:right;
+}
+
+
+main{
+    min-height:1800px;
+}
+
+
+.shadow{
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow:    0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow:         0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    transition:ease all 0.3s;
+}
+
+.shadow:hover{
+    -webkit-box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow:    0px 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow:         0px 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+.border-red{
+    border:solid 1px;
+    border-color:#d9534f;
+    
+}
+
+.border-green{
+    border-color:#5cb85c;
+}
+
+.border-blue{
+    border-color:#337ab7;
+}
+
+.red{
+    color:#d9534f;
+}
+
+.green{
+    color:#5cb85c;
+}
+
+.blue{
+    color:#337ab7;
+}
+
+
+/* --------------------------- HEADER --------------------------- */
+
+
+header{
+    background-image:url(../images/banner7.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:200px;
+    margin-top:-20px;
+}
+
+header img{
+    filter:brightness(100);
+}
+
+header>div{
+    padding-top:60px;
+}
+
+#header-logo{
+    padding-right:0;
+}
+
+#header-text>h1{    /* Titolo UTE */
+    margin-top:12px;
+}
+
+#header-text{
+    padding-left:150px;
+}
+
+.slogan{    /* L'ute ti colora la vita */
+    font-family:Sofia-Regular, sans-serif;
+    font-size:15pt;
+}
+
+
+
+/* --------------------------- MENU --------------------------- */
+
+.navbar{
+    padding-right:0;
+    padding-left:0;
+    background-image:url(../images/menu.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius:0;
+    border-right:none;
+    border-left:none;
+}
+
+.navbar-nav > li > a,   /* Altezza fissa del menu */
+.navbar-brand{
+    height:60px;
+}
+
+.navbar-toggle{ /* Burger Menu */
+    margin-top:13px;
+}
+
+.navbar-brand>img{
+    width:50px;
+    margin-top:-11px;
+    filter:brightness(100);
+    display:inline-block;
+}
+
+.nav>li>a{  /* Voci del menu */
+    color:white !important;
+    font-size:13pt;
+    padding-top:18px;
+}
+
+
+
+@media all and (min-width:768px){
+    .hide{
+        display:none;
+    }
+
+    .show{
+        display:inline;
+    }
+}
+
+@media all and (max-width:767px){
+    .hide{
+        display:inline !important;
+    }
+    
+    .show{
+        display:none !important;
+    }
+}
+
+
+
+
+/* --------------------------- FOOTER --------------------------- */
+
+footer{
+    background-color:#1D1F21;
+    padding:20px 0;
+}
+
+footer ul{
+    list-style-type:none;
+}
+
+footer a{
+    color:#5999d0;
+}
+
+@media all and (max-width:992px){   /* Footer responsive */
+    footer>div:first-child,
+    footer>div:nth-child(2){
+        margin-bottom:20px;
+    }
+}
+
+
+
+
+
+/* HOMEPAGE */
+
+.alert{
+    cursor:pointer;
+}
+
+.alert>div:first-child,
+.alert>div:nth-child(2){
+    margin-bottom:10px;
+}
+
+
+#chi-siamo{
+    margin-top:50px;
+    
+}
+
+#chi-siamo{
+    background-image:url(../images/libri.jpg);
+    background-position:center top;
+    background-size:cover;
+    background-attachment:fixed;
+    padding:50px 0;
+}
+
+
+
+#corsi .fa{
+    margin-top:20px;
+}
+
+#corsi h1{
+    margin:35px 0;
+}
+
+#tabella-orari .label{
+    font-size:12pt;
+}
+
+#tabella-orari ul{
+    list-style-type:none;
+}
+
+#tabella-orari table{
+    background-color:rgba(255,255,255,0.9);
+}
+
+#tabella-orari{
+    background-image:url(../images/calendar1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+#tabella-orari ul>li{
+    margin-bottom:10px;
+}
+
+#sponsor div>div{
+    margin-bottom:20px;
+}
+
+#map{
+    height:400px;
+}
