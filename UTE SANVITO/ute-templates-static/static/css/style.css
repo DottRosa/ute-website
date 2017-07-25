@@ -1,23 +1,25 @@
 /* GENERALI */
 
+/* 
+
+Font principale: Montserrat
+Font slogan: Sofia
+
+*/
+
+
 *{
     margin:0;
     padding:0;
     font-family:Montserrat-Regular, sans-serif;
 }
 
-.bold{
-    font-family:Montserrat-SemiBold, sans-serif;
+a:hover{
+    text-decoration:none;
 }
 
-.italic{
-    font-family:Montserrat-Italic, sans-serif;
-}
 
-.text-white{
-    color:white !important;
-}
-
+/* Generali - testo */
 .center{
     text-align:center;
 }
@@ -25,6 +27,19 @@
 .right{
     text-align:right;
 }
+
+.bold{  /* Bold del font principale */
+    font-family:Montserrat-SemiBold, sans-serif;
+}
+
+.italic{    /* Corsivo del font principale */
+    font-family:Montserrat-Italic, sans-serif;
+}
+
+.text-white{    /* Bianco per i testi */
+    color:white !important;
+}
+
 
 
 main{
