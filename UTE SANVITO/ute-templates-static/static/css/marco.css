@@ -32,7 +32,10 @@ main ul{
     margin-bottom:25px;
 }
 
-
 details>table{
     margin-top:15px;
+}
+
+details>summary{
+    cursor:pointer;
 }
