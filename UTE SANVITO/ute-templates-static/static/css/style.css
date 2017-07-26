@@ -188,6 +188,24 @@ header>div{
     padding-top:18px;
 }
 
+.navbar-nav .active>a,  /* Voce selezionata e apertura del sottomenu */
+.navbar-nav .open>a{
+    color:black !important;
+}
+
+.navbar .badge{ /* Numeretto delle news */
+    background-color:white;
+    color:black;
+}
+
+@media all and (max-width:768px){
+    .navbar .dropdown-menu a{
+        font-size:13pt;
+        color:white !important;
+        margin-left:20px;
+    }
+}
+
 
 /*
 .hide{
