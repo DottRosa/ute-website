@@ -1,30 +1,9 @@
-/* SIDEBAR */
-
-.nav-sidebar.pull-right { 
-    width: 100%;
-    padding: 8px 0; 
-    border-right: 1px solid #ddd;
-}
-.nav-sidebar.pull-right a {
-    color: #888 !important;
-    transition: all 0.08s linear;
-    border-radius: 4px 0 0 4px; 
-    font-size: 11pt;
-    padding: 3px;
-}
-.nav-sidebar .active a { 
-    cursor: pointer;
-    color: #337ab7 !important;
-    font-weight: bold;
-}
-
-#sidebar{
-    position: fixed;
-    top: 70px;
-    font-size: 11pt;
-}
-
 /* GENERALI */
+
+.gray{
+    color: #757575;
+}
+
 p{
     font-size: 12pt;
 }
@@ -47,3 +26,48 @@ h2{
         text-align: center;
     }
 }
+
+/* SIDEBAR */
+
+.nav-sidebar.pull-right { 
+    width: 100%;
+    padding: 8px 0; 
+    border-right: 1px solid #ddd;
+}
+.nav-sidebar.pull-right a {
+    color: #757575 !important;
+    transition: all 0.08s linear;
+    border-radius: 4px 0 0 4px; 
+    font-size: 11pt;
+    padding: 3px;
+}
+.nav-sidebar .active a { 
+    cursor: pointer;
+    color: #337ab7 !important;
+    font-weight: bold;
+}
+
+#sidebar{
+    position: fixed;
+    top: 70px;
+    font-size: 11pt;
+}
+
+/* NEWS */
+
+#lista-news>div:nth-child(2)>div:nth-child(2),
+#lista-news>div:nth-child(2)>div:nth-child(3),
+#lista-news>div:nth-child(2)>div:nth-child(4){
+    box-shadow:         0px 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
+    color: #337ab7;
+}
+
+#lista-news>div:nth-child(2)>div:nth-child(n+5){
+    color: #757575;
+}
+
+#lista-news>div:nth-child(2)>div{
+    margin: 20px 0;
+}
+
+
