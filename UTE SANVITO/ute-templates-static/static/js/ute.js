@@ -1,9 +1,10 @@
-window.onscroll=function(){
+
+window.onscroll = function(){
     var menu = document.getElementById("menu");
     var spacer = document.getElementById("menu-spacer");
     var logo = document.getElementsByClassName("navbar-brand")[0].children;
     
-    if(document.body.scrollTop >= 180 && document.body.clientWidth >= 768){
+    if((document.documentElement.scrollTop >= 180 || document.body.scrollTop >= 180) && document.body.clientWidth >= 768){
         if(!menu.classList.contains("fixed-menu")){
             addClass(menu, "fixed-menu");
         }
