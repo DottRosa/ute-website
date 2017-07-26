@@ -1,7 +1,4 @@
-
-
-
-window.onscroll = function(){
+window.onscroll=function(){
     var menu = document.getElementById("menu");
     var spacer = document.getElementById("menu-spacer");
     var logo = document.getElementsByClassName("navbar-brand")[0].children;
