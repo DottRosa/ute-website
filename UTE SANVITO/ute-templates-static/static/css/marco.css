@@ -32,7 +32,7 @@ main ul{
     margin-bottom:25px;
 }
 
-.horizontal-list>li{
-    display:inline;
-    margin-right:10px;
+
+details>table{
+    margin-top:15px;
 }
