@@ -110,7 +110,7 @@ main h1{
 }
 
 
-@media all and (max-width:768px){   /* "Dove siamo" versione mobile */
+@media all and (max-width:768px){   /* Sidebar versione mobile */
     #sidebar{
         display:none;
     }
@@ -253,10 +253,6 @@ footer a{
 
 
 /* HOMEPAGE */
-
-.alert{
-    cursor:pointer;
-}
 
 .alert>div:first-child,
 .alert>div:nth-child(2){

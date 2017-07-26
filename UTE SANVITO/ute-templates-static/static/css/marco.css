@@ -31,3 +31,8 @@ main ul{
 .btn-group{
     margin-bottom:25px;
 }
+
+.horizontal-list>li{
+    display:inline;
+    margin-right:10px;
+}
