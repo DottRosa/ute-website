@@ -33,6 +33,7 @@ h2{
     width: 100%;
     padding: 8px 0; 
     border-right: 1px solid #ddd;
+    padding-right: 10px;
 }
 .nav-sidebar.pull-right a {
     color: #757575 !important;
