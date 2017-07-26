@@ -1,12 +1,33 @@
-.table-courses{
-    font-size:12pt;
-}
+/* MENU */
 
 .fixed-menu{
     position:fixed;
     z-index:999;
 }
 
-.spacer{
+.spacer{    /* Spazio aggiuntivo per il menu fixed */
     height:83px;
+}
+
+
+main li{
+    font-size:12pt;
+    margin-bottom:5px;
+}
+
+main ul{
+    list-style-type:none;
+}
+
+
+
+/* CORSI */
+
+
+.table-courses{
+    font-size:12pt;
+}
+
+.btn-group{
+    margin-bottom:25px;
 }
