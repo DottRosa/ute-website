@@ -183,6 +183,17 @@ header>div{
 }
 
 
+/*
+.hide{
+    display:none;
+}
+
+.show{
+    display:inline !important;
+}
+
+*/
+
 
 @media all and (min-width:768px){
     .hide{
@@ -190,7 +201,7 @@ header>div{
     }
 
     .show{
-        display:inline;
+        display:inline !important;
     }
 }
 
@@ -203,6 +214,8 @@ header>div{
         display:none !important;
     }
 }
+
+
 
 
 
