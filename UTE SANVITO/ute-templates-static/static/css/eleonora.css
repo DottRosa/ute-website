@@ -37,3 +37,13 @@ h2{
 .text-big{
     font-size: 14pt;
 }
+
+.thumbnail{
+    border: none !important;
+}
+
+@media all and (max-width:992px){
+    #address{
+        text-align: center;
+    }
+}
