@@ -1,0 +1,232 @@
+<?php 
+require("php_files/config.php");
+require("php_files/funzioni.php");	
+?>
+
+<!doctype html>
+<html lang="it">
+    <head>
+        <title> Forum Democratico Casarsa - Aggiungi evento </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style_gestionale.css" type="text/css">
+        <link rel="stylesheet" href="css/font.css" type="text/css">
+        
+        <link rel="stylesheet" href="css/bootstrap/js/bootstrap-datetimepicker.min.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap/js/bootstrap-select.min.css" type="text/css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script src="js/jquery.js"></script>
+        <script src="css/bootstrap/js/bootstrap.min.js"></script>
+        <script src="css/bootstrap/js/moment/moment.js"></script>
+        <script src="css/bootstrap/js/moment/min/moment-with-locales.min.js"></script>
+        <script src="css/bootstrap/js/bootstrap-datetimepicker.min.js"></script>
+        
+        <script src="css/bootstrap/js/bootstrap-select.min.js"></script>
+        
+    </head>
+    
+    <body class="col-xs-12" style="padding-left: 0px;padding-right:0px">
+        
+        <div class="nav-side-menu col-xs-3" style="padding-left: 0px;padding-right:0px">
+            <div class="brand">
+                <img src="img/logo.svg">   
+                <h3> Gestionale </h3>
+            </div>
+            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+                <div class="menu-list">
+
+                    <ul id="menu-content" class="menu-content collapse out">
+                        
+                        <li class="active">
+                          <a href="dashboard.html">
+                           <i class="fa fa-home" aria-hidden="true"></i> Dashboard
+                          </a>
+                          </li>
+                        
+                        <li data-toggle="collapse" data-target="#events" class="collapsed">
+                          <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Eventi <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="events">
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Aggiungi evento</a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Archivio eventi</a></li>
+                        </ul>
+
+                        <li data-toggle="collapse" data-target="#live" class="collapsed">
+                          <a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i>Diretta<i class="fa fa-circle live-circle" aria-hidden="true"></i> <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="live">
+                            <li><a href="live-management.html"><i class="fa fa-cog" aria-hidden="true"></i>Gestione diretta</a></li>
+                            <li><a href="edit-live.html"><i class="fa fa-pencil" aria-hidden="true"></i>Modifica diretta</a></li>
+                            <li><a href="technical-problem.html"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Problema tecnico</a></li>
+                        </ul>
+
+                        <li data-toggle="collapse" data-target="#albo" class="collapsed">
+                          <a href="#"><i class="fa fa-trophy" aria-hidden="true"></i>Albo d'oro <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="albo">
+                            <li><a href="award-statistics.html"><i class="fa fa-bar-chart" aria-hidden="true"></i>Statistiche premiazioni</a></li>
+                            <li><a href="add-winner.html"><i class="fa fa-plus-circle" aria-hidden="true"></i>Aggiungi vincitore</a></li>
+                            <li><a href="edit-winner.html"><i class="fa fa-pencil" aria-hidden="true"></i>Modifica vincitori</a></li>
+                            <li><a href="delete-winner.html"><i class="fa fa-trash" aria-hidden="true"></i>Elimina vincitori</a></li>
+                        </ul>
+                        
+                        
+                        <li data-toggle="collapse" data-target="#account" class="collapsed">
+                          <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Gestione account <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        
+                        <ul class="sub-menu collapse" id="account">
+                            <li><a href="create-account.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Crea un nuovo account</a></li>
+                            <li><a href="accounts-list.html"><i class="fa fa-users" aria-hidden="true"></i>Lista account</a></li>
+                        </ul>
+
+                         <li>
+                          <a href="">
+                           <i class="fa fa-line-chart" aria-hidden="true"></i> Analytics
+                          </a>
+                          </li>
+
+                        <li>
+                          <a href="">
+                           <i class="fa fa-globe" aria-hidden="true"></i> Vai al sito
+                          </a>
+                        </li>
+
+                         <li>
+                          <a href="#">
+                           <i class="fa fa-sign-out" aria-hidden="true"></i> Esci
+                          </a>
+                        </li>
+                    </ul>
+             </div>
+        </div>
+        
+        <div class="col-sm-3"></div>
+        
+        
+        <!-- CONTENUTO -->
+        <main class="col-sm-9 col-xs-12">
+            <div class="row shadow">
+                <h1> Aggiungi evento </h1>
+                <p> Utente connesso: Marco</p>
+            </div>
+            
+            <div class="row shadow">
+                <h4> Compila la form e aggiungi l'evento </h4>
+                
+                <form>
+                    
+                    <!-- Nome dell'evento -->
+                    <div class="form-group col-xs-12">
+                        <label for="eventNameInput">Nome dell'evento</label>
+                        <input type="text" class="form-control" id="eventNameInput" placeholder="Inserisci il tuo nome">
+                    </div>
+                    
+                    <!-- Data dell'evento -->
+                    <div class="form-group col-xs-6">
+                        <label for="eventDateInput">Data</label>
+                        <div class='input-group date' id="eventDateInput">
+                            <input type='text' class="form-control" name="eventDate"/>
+                            <span class="input-group-addon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- Ora dell'evento -->
+                    <div class="form-group col-xs-6">
+                        <label for="eventTimeInput">Ora</label>
+                        <div class='input-group date' id='eventTimeInput'>
+                            <input type='text' class="form-control" name="eventTime"/>
+                            <span class="input-group-addon">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="form-group col-xs-12">
+                        <label for="eventPlaceInput">Scegli un luogo</label>
+                        <br/>
+                        <select class="selectpicker" data-live-search="true" id="eventPlaceInput" name="eventPlace">
+                          <option data-tokens="ketchup mustard">Luogo 1</option>
+                          <option data-tokens="mustard">Luogo 2</option>
+                          <option data-tokens="frosting">Luogo 3</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Nome dell'evento -->
+                    <div class="form-group col-xs-12">
+                        <label for="eventNewPlaceInput">Inserisci un nuovo luogo (se non presente nella lista)</label>
+                        <input type="text" class="form-control" id="eventNewPlaceInput" name="eventNewPlace" placeholder="Inserisci il nuovo luogo">
+                    </div>
+                    
+                    <!-- Nome dell'evento -->
+                    <div class="form-group col-xs-12">
+                        <label for="eventModeratorInput">Moderatore</label>
+                        <input type="text" class="form-control" id="eventModeratorInput" name="eventModerator" placeholder="Inserisci il moderatore">
+                    </div>
+                    
+                    <div class="form-group col-xs-12">
+                        <label for="eventDescriptionInput">Descrizione dell'evento</label>
+                        <textarea class="form-control" id="eventDescriptionInput" name="eventDescription" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-check col-xs-12">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="eventNotLive">
+                            L'evento NON verrà trasmesso in diretta
+                        </label>
+                    </div>
+                    
+                    <div class="form-group col-xs-12">
+                        <label for="eventThemeInput">Tema per slideshow</label>
+                        <br/>
+                        <select class="selectpicker" data-live-search="true" id="eventThemeInput" name="eventTheme">
+                          <option data-tokens="ketchup mustard">Tema 1</option>
+                          <option data-tokens="mustard">Tema 2</option>
+                          <option data-tokens="frosting">Tema 3</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group col-xs-12">
+                        <button type="submit" class="btn btn-lg btn-success">Aggiungi evento</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+            <div class="row">
+                <p> Gestionale di Forum Democratico a cura di <a href="">Marco Rosa</a> - Ultimo aggiornamento Giugno 2017</p>
+            </div>
+            
+        </main>
+        
+	</body>
+    
+    <!-- Script per la data e l'ora -->
+    <script type="text/javascript">
+        $(function () {
+            
+            $('#eventDateInput').datetimepicker({
+                format: 'DD/MM/YYYY',
+                locale:'it'
+            });
+            
+            $('#eventTimeInput').datetimepicker({
+                format: 'LT',
+                locale:'it'
+            });
+        });
+    </script>   
+</html>
