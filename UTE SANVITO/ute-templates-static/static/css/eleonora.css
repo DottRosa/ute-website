@@ -29,6 +29,7 @@ h2{
     }
 }
 
+<<<<<<< HEAD
 /* EVENTI */
 
 #eventi>div:nth-child(2)>ul{
@@ -41,32 +42,9 @@ h2{
 }
 
 /* SIDEBAR */
+=======
+>>>>>>> 453876ea21b31e6cdcfb5f4f4e1efff0e105903c
 
-.nav-sidebar.pull-right { 
-    width: 100%;
-    padding: 8px 0; 
-    border-right: 1px solid #ddd;
-    margin-right: 10px;
-}
-.nav-sidebar.pull-right a {
-    color: #757575 !important;
-    transition: all 0.08s linear;
-    border-radius: 4px 0 0 4px; 
-    font-size: 11pt;
-    padding: 3px;
-}
-.nav-sidebar .active a { 
-    cursor: pointer;
-    color: #337ab7 !important;
-    font-weight: bold;
-}
-
-#sidebar{
-    position: fixed;
-    top: 70px;
-    font-size: 11pt;
-    
-}
 
 /* NEWS */
 

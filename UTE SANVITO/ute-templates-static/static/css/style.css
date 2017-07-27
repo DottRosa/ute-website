@@ -116,6 +116,39 @@ main h1{
     }
 }
 
+
+
+/* SIDEBAR */
+
+.nav-sidebar.pull-right { 
+    width: 100%;
+    padding: 8px 0; 
+    border-right: 1px solid #ddd;
+    margin-right: 10px;
+}
+.nav-sidebar.pull-right a {
+    color: #757575 !important;
+    transition: all 0.08s linear;
+    border-radius: 4px 0 0 4px; 
+    font-size: 11pt;
+    padding: 3px;
+}
+.nav-sidebar .active a { 
+    cursor: pointer;
+    color: #337ab7 !important;
+    font-weight: bold;
+}
+
+#sidebar{
+    font-size: 11pt;
+}
+
+
+.sidebar-fixed{
+    position: fixed;
+    top:80px;
+}
+
 /* --------------------------- HEADER --------------------------- */
 
 
@@ -296,29 +329,6 @@ footer a{
     margin:35px 0;
 }
 
-#tabella-orari .label{
-    font-size:12pt;
-}
-
-#tabella-orari ul{
-    list-style-type:none;
-}
-
-#tabella-orari table{
-    
-}
-
-#tabella-orari{
-    background-image:url(../images/calendar1.jpg);
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-}
-
-#tabella-orari ul>li{
-    margin-bottom:10px;
-}
-
 #sponsor div>div{
     margin-bottom:20px;
 }
@@ -355,5 +365,6 @@ footer a{
 #dove-siamo{
     background-image:url(../images/mappa4.jpg);
     background-size:cover;
+    background-attachment:fixed;
     background-position:top;
 }

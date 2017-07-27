@@ -3,14 +3,19 @@ window.onscroll = function(){
     var menu = document.getElementById("menu");
     var spacer = document.getElementById("menu-spacer");
     var logo = document.getElementsByClassName("navbar-brand")[0].children;
+    var sidebar = document.getElementById("sidebar");
     
     if((document.documentElement.scrollTop >= 180 || document.body.scrollTop >= 180) && document.body.clientWidth >= 768){
         if(!menu.classList.contains("fixed-menu")){
             addClass(menu, "fixed-menu");
         }
-            addClass(spacer, "spacer");
-            show(logo[0], true);
-            show(logo[1], true);
+        addClass(spacer, "spacer");
+        show(logo[0], true);
+        show(logo[1], true);
+        
+        if(sidebar != null){
+            addClass(sidebar, "sidebar-fixed");
+        }
         
     } else if(document.body.scrollTop < 180){
         if(menu.classList.contains("fixed-menu")){
@@ -19,6 +24,10 @@ window.onscroll = function(){
         removeClass(spacer, "spacer");
         show(logo[0], false);
         show(logo[1], false);
+        
+        if(sidebar != null){
+            removeClass(sidebar, "sidebar-fixed");
+        }
         
     } else if(document.body.scrollTop >= 0 && document.body.clientWidth < 768){
         if(!menu.classList.contains("fixed-menu")){
