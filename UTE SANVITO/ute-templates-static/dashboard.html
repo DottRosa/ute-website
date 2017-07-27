@@ -25,7 +25,7 @@ require("php_files/funzioni.php");
         <div class="nav-side-menu col-xs-3" style="padding-left: 0px;padding-right:0px">
             <div class="brand">
                 <img src="static/images/ute-logo.png">   
-                <h3> Gestionale </h3>
+                <h3> UTE Sanvitese </h3>
             </div>
             <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
 
@@ -34,66 +34,60 @@ require("php_files/funzioni.php");
                     <ul id="menu-content" class="menu-content collapse out">
                         
                         <li class="active">
-                          <a href="dashboard.html">
-                           <i class="fa fa-home" aria-hidden="true"></i> Dashboard
-                          </a>
-                          </li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-home" aria-hidden="true"></i> Dashboard
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Nuovo piano annuale
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Modifica corso
+                            </a>
+                        </li>
+                        
+                        <li data-toggle="collapse" data-target="#news" class="collapsed">
+                            <a href="#"><i class="fa fa-exclamation" aria-hidden="true"></i>News <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="news">
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuova news</a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica news</a></li>
+                        </ul>
                         
                         <li data-toggle="collapse" data-target="#events" class="collapsed">
-                          <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Eventi <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+                            <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Eventi <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
         </span></a>
                         </li>
                         <ul class="sub-menu collapse" id="events">
-                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Aggiungi evento</a></li>
-                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Archivio eventi</a></li>
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo evento</a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica evento</a></li>
                         </ul>
                         
-                        
-                        <li>
-                          <a href="live-management.html">
-                           <i class="fa fa-video-camera" aria-hidden="true"></i>Gestione diretta<i class="fa fa-circle live-circle" aria-hidden="true"></i>
-                          </a>
-                          </li>
-
-
-                        <li data-toggle="collapse" data-target="#albo" class="collapsed">
-                          <a href="#"><i class="fa fa-trophy" aria-hidden="true"></i>Albo d'oro <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <li data-toggle="collapse" data-target="#admin" class="collapsed">
+                            <a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Amministratori <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
         </span></a>
                         </li>
-                        <ul class="sub-menu collapse" id="albo">
-                            <li><a href="award-statistics.html"><i class="fa fa-bar-chart" aria-hidden="true"></i>Statistiche premiazioni</a></li>
-                            <li><a href="add-winner.html"><i class="fa fa-plus-circle" aria-hidden="true"></i>Aggiungi vincitore</a></li>
-                            <li><a href="edit-winner.html"><i class="fa fa-pencil" aria-hidden="true"></i>Modifica vincitori</a></li>
-                            <li><a href="delete-winner.html"><i class="fa fa-trash" aria-hidden="true"></i>Elimina vincitori</a></li>
+                        <ul class="sub-menu collapse" id="admin">
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo admin </a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Gestisci admin</a></li>
                         </ul>
                         
-                        
-                        <li data-toggle="collapse" data-target="#account" class="collapsed">
-                          <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Gestione account <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
-        </span></a>
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-columns" aria-hidden="true"></i> Vai al sito
+                            </a>
                         </li>
-                        
-                        <ul class="sub-menu collapse" id="account">
-                            <li><a href="create-account.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Crea un nuovo account</a></li>
-                            <li><a href="accounts-list.html"><i class="fa fa-users" aria-hidden="true"></i>Lista account</a></li>
-                        </ul>
-
-                         <li>
-                          <a href="">
-                           <i class="fa fa-line-chart" aria-hidden="true"></i> Analytics
-                          </a>
-                          </li>
 
                         <li>
-                          <a href="http://forumdemocraticocasarsa.it" target="_blank">
-                           <i class="fa fa-globe" aria-hidden="true"></i> Vai al sito
-                          </a>
-                        </li>
-
-                         <li>
-                          <a href="#">
-                           <i class="fa fa-sign-out" aria-hidden="true"></i> Esci
-                          </a>
+                            <a href="#">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i> Esci
+                            </a>
                         </li>
                     </ul>
              </div>
@@ -110,11 +104,12 @@ require("php_files/funzioni.php");
             </div>
             
             <div class="row shadow">
-                <h4> È in corso una diretta <i class="fa fa-circle live-circle" aria-hidden="true"></i></h4>
+                <h4> Le ultime news </h4>
                 <table class="table table-hover events-table table-responsive">
                 <thead>
                     <tr>
-                        <th>Evento</th>
+                        <th>Testo</th>
+                        <th>Data pubblicazione</th>
                         <th>Gestione</th>
                     </tr>
                 </thead>
@@ -124,8 +119,10 @@ require("php_files/funzioni.php");
                             <a href="event-details.html">Storie di casa nostra - Enrico Gasparotto, Federico Morello e Gruppo volontari per Castelnovo</a>
                         </td>
                         <td>
+                            18 Agosto 2017
+                        </td>
+                        <td>
                             <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
-                            <a href="" class="btn btn-success"><i class="fa fa-cog" aria-hidden="true"></i> Gestisci </a>
                         </td>
                     </tr>
                 </tbody>
