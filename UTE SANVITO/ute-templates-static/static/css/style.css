@@ -18,6 +18,14 @@ a:hover{
     text-decoration:none;
 }
 
+p{
+    font-size: 12pt;
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 
 /* Generali - testo */
 .center{
@@ -41,6 +49,13 @@ a:hover{
 }
 
 
+.text-big{
+    font-size:14pt;
+}
+
+.thumbnail{
+    border:none !important;
+}
 
 main{
     min-height:1000px;
@@ -94,6 +109,10 @@ main h1{
 
 .blue{
     color:#337ab7;
+}
+
+.gray{
+    color: #757575;
 }
 
 .bg-light{
@@ -273,7 +292,24 @@ header>div{
 }
 
 
+.fixed-menu{
+    position:fixed;
+    z-index:999;
+}
 
+.spacer{    /* Spazio aggiuntivo per il menu fixed */
+    height:83px;
+}
+
+
+main li{
+    font-size:12pt;
+    margin-bottom:5px;
+}
+
+main ul{
+    list-style-type:none;
+}
 
 
 
@@ -303,7 +339,7 @@ footer a{
 
 
 
-/* HOMEPAGE */
+/* --------------------------- HOMEPAGE --------------------------- */
 
 .alert>div:first-child,
 .alert>div:nth-child(2){
@@ -367,4 +403,76 @@ footer a{
     background-size:cover;
     background-attachment:fixed;
     background-position:top;
+}
+
+
+
+/* --------------------------- CORSI --------------------------- */
+
+.table-courses{
+    font-size:12pt;
+}
+
+.btn-group{
+    margin-bottom:25px;
+}
+
+details>table{
+    margin-top:15px;
+}
+
+details>summary{
+    cursor:pointer;
+    padding:5px;
+    outline:none;
+}
+
+details[open]>summary{
+    background-color:#337ab7;
+    color:white;
+    font-weight:bold;   
+}
+
+
+/* --------------------------- SINGOLO CORSO --------------------------- */
+
+
+/* --------------------------- NEWS --------------------------- */
+
+#lista-news>div:nth-child(2)>div:nth-child(2),
+#lista-news>div:nth-child(2)>div:nth-child(3),
+#lista-news>div:nth-child(2)>div:nth-child(4){
+    box-shadow:         0px 14px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
+    color: #337ab7;
+}
+
+#lista-news>div:nth-child(2)>div:nth-child(n+5){
+    color: #757575;
+}
+
+#lista-news>div:nth-child(2)>div{
+    margin: 20px 0;
+}
+
+
+/* --------------------------- EVENTI --------------------------- */
+
+#eventi>div:nth-child(2)>ul{
+    border-left: solid 5px #337ab7;
+    padding-left: 10px;
+}
+
+#eventi>div:nth-child(2)>div{
+    margin-top: 50px;
+}
+
+
+
+
+/* --------------------------- INFO E CONTATTI --------------------------- */
+
+@media all and (max-width:992px){
+    #address{
+        text-align: center;
+    }
 }
