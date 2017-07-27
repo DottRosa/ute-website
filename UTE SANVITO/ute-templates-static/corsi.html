@@ -60,23 +60,14 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Home</a></li>
-                        <li class="active"><a href="#">Corsi</a></li>
-                        <li><a href="#">News <span class="badge">4</span></a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                Eventi <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu navbar-nav">
-                                <li><a href="#">Lezioni fuori sede</a></li>
-                                <li><a href="#">Viaggi di studio</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Info e contatti</a></li>
-                
+                        <li><a href="index.html" accesskey="H">Home</a></li>
+                        <li class="active"><a href="#" accesskey="C">Corsi</a></li>
+                        <li><a href="#" accesskey="N">News <span class="badge">4</span></a></li>
+                        <li><a href="index.html" accesskey="E">Eventi</a></li>
+                        <li><a href="#" accesskey="I">Info e contatti</a></li>
                     </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
+                </div>
+            </div>
         </nav>
         
         
@@ -99,146 +90,94 @@
                             <a href="" class="btn btn-default"> Lista alfabetica</a>
                         </div>
                         
+                        
+                        
                         <ul class="list-group">
-                            <li class="list-group-item"><a href="">Corsi annuali</a>,</li>
-                            <li class="list-group-item"><a href="">Corsi brevi</a>,</li>
-                            <li class="list-group-item"><a href="">Corsi serali</a></li>
+                            <li class="list-group-item">
+                                <details>
+                                    <summary> Corsi annuali <i class="fa fa-angle-down" aria-hidden="true"></i></summary>
+                                    <table class="table table-bordered table-hover table-courses">
+                                        <tr>
+                                            <th>Corso</th>
+                                            <th>Durata</th>
+                                        </tr>
+
+                                        <tr>
+                                            <td> Corso 1 </td>
+                                            <td><i class="fa fa-calendar-o" aria-hidden="true"></i> Annuale </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> Corso 2 </td>
+                                            <td><i class="fa fa-clock-o" aria-hidden="true"></i> Breve </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> Corso 3 </td>
+                                            <td><i class="fa fa-moon-o" aria-hidden="true"></i> Serale </td>
+                                        </tr>
+
+                                    </table>
+                                </details>
+                            </li>
+                            <li class="list-group-item">
+                                <details>
+                                    <summary> Corsi brevi </summary>
+                                    <table class="table table-bordered table-hover table-courses">
+                                        <tr>
+                                            <th>Corso</th>
+                                            <th>Durata</th>
+                                        </tr>
+
+                                        <tr>
+                                            <td> Corso 1 </td>
+                                            <td><i class="fa fa-calendar-o" aria-hidden="true"></i> Annuale </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> Corso 2 </td>
+                                            <td><i class="fa fa-clock-o" aria-hidden="true"></i> Breve </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> Corso 3 </td>
+                                            <td><i class="fa fa-moon-o" aria-hidden="true"></i> Serale </td>
+                                        </tr>
+
+                                    </table>
+                                </details>
+                            </li>
+                            <li class="list-group-item">
+                                <details>
+                                    <summary> Corsi serali </summary>
+                                    <table class="table table-bordered table-hover table-courses">
+                                        <tr>
+                                            <th>Corso</th>
+                                            <th>Durata</th>
+                                        </tr>
+
+                                        <tr>
+                                            <td> Corso 1 </td>
+                                            <td><i class="fa fa-calendar-o" aria-hidden="true"></i> Annuale </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> Corso 2 </td>
+                                            <td><i class="fa fa-clock-o" aria-hidden="true"></i> Breve </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> Corso 3 </td>
+                                            <td><i class="fa fa-moon-o" aria-hidden="true"></i> Serale </td>
+                                        </tr>
+
+                                    </table>
+                                </details>
+                            </li>
                         </ul>
                     </div>
                     
                     
-                    
-                    <div class="col-xs-12">
-                        <h2><i class="fa fa-calendar-o" aria-hidden="true"></i> Corsi annuali </h2>
-                        
-                        <table class="table table-bordered table-hover table-courses">
-                    
-                            <tr>
-                                <th>Corso</th>
-                                <th>Tipologia</th>
-                                <th class="center"> Informazioni </th>
-                            </tr>
-                            
-                            <tr>
-                                <td><a href=""> Corso 1 </a></td>
-                                <td> Arte </td>
-                                <td class="center">
-                                    <a href="" class="btn btn-success">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Info
-                                    </a>
-                                </td>
-                            </tr>
-                            
-                            <tr>
-                                <td> Corso 2 </td>
-                                <td> Lettere </td>
-                                <td class="center">
-                                    <a href="" class="btn btn-success">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Info
-                                    </a>
-                                </td>
-                            </tr>
-                            
-                            <tr>
-                                <td> Corso 3 </td>
-                                <td> Informatica </td>
-                                <td class="center">
-                                    <a href="" class="btn btn-success">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Info
-                                    </a>
-                                </td>
-                            </tr>
-                    
-                        </table>
-                    </div>
-                    
-                    <div class="col-xs-12">
-                        <h2><i class="fa fa-clock-o" aria-hidden="true"></i> Corsi brevi </h2>
-                        
-                        <table class="table table-bordered table-hover table-courses">
-                    
-                            <tr>
-                                <th>Corso</th>
-                                <th>Tipologia</th>
-                                <th class="center"> Informazioni</th>
-                            </tr>
-                            
-                            <tr>
-                                <td> Corso 1 </td>
-                                <td> Arte </td>
-                                <td class="center">
-                                    <a href="" class="btn btn-success">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Info
-                                    </a>
-                                </td>
-                            </tr>
-                            
-                            <tr>
-                                <td> Corso 2 </td>
-                                <td> Lettere </td>
-                                <td class="center">
-                                    <a href="" class="btn btn-success">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Info
-                                    </a>
-                                </td>
-                            </tr>
-                            
-                            <tr>
-                                <td> Corso 3 </td>
-                                <td> Informatica </td>
-                                <td class="center">
-                                    <a href="" class="btn btn-success">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Info
-                                    </a>
-                                </td>
-                            </tr>
-                    
-                        </table>
-                    </div>
-                    
-                    <div class="col-xs-12">
-                        <h2><i class="fa fa-moon-o" aria-hidden="true"></i> Corsi serali </h2>
-                        
-                        <table class="table table-bordered table-hover table-courses">
-                    
-                            <tr>
-                                <th>Corso</th>
-                                <th>Tipologia</th>
-                                <th class="center"> Informazioni</th>
-                            </tr>
-                            
-                            <tr>
-                                <td> Corso 1 </td>
-                                <td> Arte </td>
-                                <td class="center">
-                                    <a href="" class="btn btn-success">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Info
-                                    </a>
-                                </td>
-                            </tr>
-                            
-                            <tr>
-                                <td> Corso 2 </td>
-                                <td> Lettere </td>
-                                <td class="center">
-                                    <a href="" class="btn btn-success">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Info
-                                    </a>
-                                </td>
-                            </tr>
-                            
-                            <tr>
-                                <td> Corso 3 </td>
-                                <td> Informatica </td>
-                                <td class="center">
-                                    <a href="" class="btn btn-success">
-                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Info
-                                    </a>
-                                </td>
-                            </tr>
-                    
-                        </table>
-                    </div>
                     
                     
                 </div>
@@ -759,7 +698,7 @@
             </div>
             <div class="col-md-4 center">
                 <ul>
-                    <li><a href=""> Guida all'accessibilit&agrave;</a></li>
+                    <li><a href="" accesskey="G"> Guida all'accessibilit&agrave;</a></li>
                     <li><a href=""> Privacy policy e cookie</a></li>
                 </ul>
                 

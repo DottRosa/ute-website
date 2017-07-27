@@ -38,4 +38,13 @@ details>table{
 
 details>summary{
     cursor:pointer;
+    padding:5px;
+    outline:none;
+}
+
+details[open]>summary{
+    background-color:#337ab7;
+    color:white;
+    font-weight:bold;
+    
 }
