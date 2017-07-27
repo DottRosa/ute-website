@@ -329,29 +329,6 @@ footer a{
     margin:35px 0;
 }
 
-#tabella-orari .label{
-    font-size:12pt;
-}
-
-#tabella-orari ul{
-    list-style-type:none;
-}
-
-#tabella-orari table{
-    
-}
-
-#tabella-orari{
-    background-image:url(../images/calendar1.jpg);
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-}
-
-#tabella-orari ul>li{
-    margin-bottom:10px;
-}
-
 #sponsor div>div{
     margin-bottom:20px;
 }
@@ -388,5 +365,6 @@ footer a{
 #dove-siamo{
     background-image:url(../images/mappa4.jpg);
     background-size:cover;
+    background-attachment:fixed;
     background-position:top;
 }
