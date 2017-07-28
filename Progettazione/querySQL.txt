@@ -9,6 +9,8 @@ LIMIT 3
 ----------------------------------------------------------------
 ----prende le news di oggi-----------
 
-SELECT COUNT(data)
+SELECT COUNT(data) AS daily_news
 FROM `NEWS` 
 WHERE data=CURDATE()
+
+----------------------------------------------------------------
