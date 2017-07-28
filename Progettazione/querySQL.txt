@@ -1,4 +1,5 @@
 ------------------------HOME------------------------------------
+
 ----prende le 3 news piu recenti (se presenti nel db)-----------
 
 SELECT * 
@@ -6,11 +7,49 @@ FROM `NEWS`
 ORDER BY data DESC, ora DESC
 LIMIT 3
 
-----------------------------------------------------------------
+
+-----------------------MENU-------------------------------------
+
 ----prende le news di oggi-----------
 
 SELECT COUNT(data) AS daily_news
 FROM `NEWS` 
 WHERE data=CURDATE()
 
-----------------------------------------------------------------
+
+------------------------CORSI-----------------------------------
+
+----prende tutti i corsi annuali (anno in corso, ordine alfabetico)-----------
+
+SELECT c.nome, c.anno, t.nome AS tipologia
+FROM `CORSO` AS c
+LEFT JOIN TIPOLOGIA AS t ON t.id=c.fk_tipologia
+WHERE c.anno=2017 AND c.durata='annuale'
+ORDER BY c.nome
+
+----prende tutti i corsi di una det. tipologia (anno in corso, ordine alfabetico)-----------
+
+SELECT c.nome, c.anno, c.durata
+FROM `CORSO` AS c
+LEFT JOIN TIPOLOGIA AS t ON t.id=c.fk_tipologia
+WHERE c.anno=2017 AND t.nome='vari'
+
+----prende tutti i corsi in ordine alfabetico (anno in corso)-----------
+
+SELECT c.nome, c.anno, c.durata, t.nome AS tipologia
+FROM `CORSO` AS c
+LEFT JOIN TIPOLOGIA AS t ON t.id=c.fk_tipologia
+WHERE c.anno=2017
+ORDER BY c.nome
+
+
+------------------------CORSO-----------------------------------
+
+----prende tutti i dati relativi ad un corso (anno in corso)-----------
+
+SELECT c.nome, c.durata, t.nome AS tipologia, d.nome AS docente_nome, d.cognome AS docente_cognome, d.qualifica AS docente_qualifica, c.note AS quando, c.min_iscritti, c.max_iscritti
+FROM `CORSO` AS c
+LEFT JOIN TIPOLOGIA AS t ON t.id=c.fk_tipologia
+LEFT JOIN DOCENTE AS d ON d.id=c.fk_docente
+WHERE c.anno=2017 AND c.nome='ddd'
+
