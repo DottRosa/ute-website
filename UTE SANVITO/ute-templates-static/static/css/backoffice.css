@@ -61,8 +61,28 @@ box-shadow:         0px 0px 11px 0px rgba(255,255,255, 0.25);
     }
 }
 
+.right{
+    text-align:right;
+}
+
 .center{
     text-align:center;
+}
+
+.red{
+    color:#d9534f;
+}
+
+.green{
+    color:#5cb85c;
+}
+
+.blue{
+    color:#337ab7;
+}
+
+.gray{
+    color: #757575;
 }
 
 
@@ -226,8 +246,13 @@ box-shadow:         0px 0px 11px 0px rgba(255,255,255, 0.25);
 /* ------------- ALTRO ------------- */
 
 
-main{
+main ul{
+    margin-left:50px;
+}
 
+main ul>li{
+    margin-top:15px;
+    font-size:12pt;
 }
 
 main>.row{

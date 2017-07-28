@@ -119,13 +119,13 @@ require("php_files/funzioni.php");
                     
                     <!-- Nome dell'evento -->
                     <div class="form-group col-xs-12">
-                        <label for="eventNameInput">Nome del corso</label>
+                        <label for="eventNameInput">Nome del corso</label> <small class="red">(Obbligatorio)</small>
                         <input type="text" class="form-control" id="eventNameInput" placeholder="Inserisci il tuo nome">
                         <small> Non ci possono essere due corsi con lo stesso nome. Per esempio usare la notazione: "Tedesco 2° livello" e "Tedesco 4° livello" </small>
                     </div>
                     
                     <div class="form-group col-xs-12">
-                        <label for="eventPlaceInput">Durata</label>
+                        <label for="eventPlaceInput">Durata</label> <small class="red">(Obbligatorio)</small>
                         <br/>
                         <select class="selectpicker" data-live-search="true" id="eventPlaceInput" name="eventPlace">
                           <option data-tokens="ketchup mustard">Annuale</option>
@@ -135,7 +135,7 @@ require("php_files/funzioni.php");
                     </div>
                     
                     <div class="form-group col-xs-12">
-                        <label for="eventPlaceInput">Tipologia</label>
+                        <label for="eventPlaceInput">Tipologia</label> <small class="red">(Obbligatorio)</small>
                         <br/>
                         <select class="selectpicker" data-live-search="true" id="eventPlaceInput" name="eventPlace">
                           <option data-tokens="ketchup mustard">Arte</option>
@@ -150,7 +150,7 @@ require("php_files/funzioni.php");
                     
                     
                     <div class="form-group col-xs-12">
-                        <label for="eventPlaceInput">Docente</label>
+                        <label for="eventPlaceInput">Docente</label> <small class="red">(Obbligatorio)</small>
                         <br/>
                         <select class="selectpicker" data-live-search="true" id="eventPlaceInput" name="eventPlace">
                           <option data-tokens="ketchup mustard">Io</option>
@@ -159,25 +159,23 @@ require("php_files/funzioni.php");
                         </select>
                         <small> Se la tipologia cercata non è presente, aggiungerla manualmente al campo sottostante </small>
                         
-                        <input type="text" class="form-control" id="eventNameInput" placeholder="Inserisci la nuova tipologia">
+                        <input type="text" class="form-control" id="eventNameInput" placeholder="Inserisci il nuovo docente">
                         
                     </div>
                     
-                    <div class="form-group col-xs-12">
+                    <div class="form-group col-xs-4">
                         <label for="eventNameInput">Numero minimo di iscritti</label>
-                        <input type="text" class="form-control" id="eventNameInput" placeholder="Inserisci il tuo nome">
-                        <small> Non ci possono essere due corsi con lo stesso nome. Per esempio usare la notazione: "Tedesco 2° livello" e "Tedesco 4° livello" </small>
+                        <input type="number" class="form-control" id="eventNameInput" placeholder="Numero minimo iscritti">
                     </div>
                     
-                    <div class="form-group col-xs-12">
+                    <div class="form-group col-xs-4">
                         <label for="eventNameInput">Numero massimo di iscritti</label>
-                        <input type="text" class="form-control" id="eventNameInput" placeholder="Inserisci il tuo nome">
-                        <small> Non ci possono essere due corsi con lo stesso nome. Per esempio usare la notazione: "Tedesco 2° livello" e "Tedesco 4° livello" </small>
+                        <input type="number" class="form-control" id="eventNameInput" placeholder="Numero massimo iscritti">
                     </div>
                     
                     
-                    <div class="form-group col-xs-12">
-                        <label for="eventDescriptionInput">Descrizione dell'evento</label>
+                    <div class="form-group col-xs-12"> 
+                        <label for="eventDescriptionInput">Descrizione dell'evento</label> <small class="red">(Obbligatorio)</small>
                         <textarea class="form-control" id="eventDescriptionInput" name="eventDescription" rows="4"></textarea>
                     </div>
                     
@@ -188,7 +186,7 @@ require("php_files/funzioni.php");
 
                     
                     <div class="form-group col-xs-12">
-                        <button type="submit" class="btn btn-lg btn-success">Aggiungi evento</button>
+                        <button type="submit" class="btn btn-lg btn-success">Aggiungi corso</button>
                     </div>
                     
                 </form>
