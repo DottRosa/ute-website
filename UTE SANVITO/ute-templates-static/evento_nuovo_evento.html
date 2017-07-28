@@ -8,23 +8,23 @@ require("php_files/funzioni.php");
     <head>
         <title> Nuovo evento </title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="static/css/bootstrap.min.css">
-        <link rel="stylesheet" href="static/css/font-awesome.min.css">
-        <link rel="stylesheet" href="static/css/backoffice.css" type="text/css">
-        <link rel="stylesheet" href="static/css/font.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/backoffice.css" type="text/css">
+        <link rel="stylesheet" href="css/font.css" type="text/css">
         
-        <link rel="stylesheet" href="static/js/bootstrap-datetimepicker.min.css" type="text/css">
-        <link rel="stylesheet" href="static/js/bootstrap-select.min.css" type="text/css">
+        <link rel="stylesheet" href="js/bootstrap-datetimepicker.min.css" type="text/css">
+        <link rel="stylesheet" href="js/bootstrap-select.min.css" type="text/css">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <script src="static/js/jquery.js"></script>
-        <script src="static/js/bootstrap.min.js"></script>
-        <script src="static/js/moment/moment.js"></script>
-        <script src="static/js/moment/min/moment-with-locales.min.js"></script>
-        <script src="static/js/bootstrap-datetimepicker.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/moment/moment.js"></script>
+        <script src="js/moment/min/moment-with-locales.min.js"></script>
+        <script src="js/bootstrap-datetimepicker.min.js"></script>
         
-        <script src="static/js/bootstrap-select.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
         
     </head>
     
@@ -32,7 +32,7 @@ require("php_files/funzioni.php");
         
         <div class="nav-side-menu col-xs-3" style="padding-left: 0px;padding-right:0px">
             <div class="brand">
-                <img src="static/images/ute-logo.png">   
+                <img src="images/ute-logo.png">   
                 <h3> UTE Sanvitese </h3>
             </div>
             <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
@@ -129,6 +129,7 @@ require("php_files/funzioni.php");
                                 <i class="fa fa-calendar" aria-hidden="true"></i>
                             </span>
                         </div>
+                        <small>Se il giorno non è definito, impostare il giorno 1 del mese scelto, quindi spuntare la casella sottostante.</small>
                     </div>
                     
                     <div class="form-group col-xs-6">
@@ -142,30 +143,33 @@ require("php_files/funzioni.php");
                     </div>
                     
                     <div class="form-group col-xs-12">
-                        <label for="eventDescriptionInput">Icona della news</label> <small class="red">(Obbligatorio)</small>
-                        <div class="radio">
+                        <label for="eventDescriptionInput">Data da definire</label>
+                        <div class="checkbox">
                             <label>
-                                <input type="radio" name="optradio">
-                                <i class="fa fa-pencil" aria-hidden="true"></i> Matita
+                                <input type="checkbox" name="optradio">
+                                Spuntare questa casella se la data dell'evento non è ancora decisa
                             </label>
                         </div>
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="optradio">
-                                <i class="fa fa-exclamation" aria-hidden="true"></i> Punto esclamativo
-                            </label>
-                        </div>
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="optradio">
-                                <i class="fa fa-home" aria-hidden="true"></i> Casa
-                            </label>
-                        </div>
+                    </div>
+                    
+                    <div class="form-group col-xs-12">
+                        <label for="eventNewPlaceInput">Luogo</label> <small class="red">(Obbligatorio)</small>
+                        <input type="text" class="form-control" id="eventNewPlaceInput" name="eventNewPlace" placeholder="Inserisci il luogo">
+                    </div>
+                    
+                    <div class="form-group col-xs-12">
+                        <label for="eventPlaceInput">Docente</label>
+                        <br/>
+                        <select class="selectpicker" data-live-search="true" id="eventPlaceInput" name="eventPlace">
+                          <option data-tokens="ketchup mustard">Docente 1</option>
+                          <option data-tokens="mustard">Docente 2</option>
+                          <option data-tokens="frosting">Docente 3</option>
+                        </select>
                     </div>
 
                     
                     <div class="form-group col-xs-12">
-                        <button type="submit" class="btn btn-lg btn-success">Modifica news</button>
+                        <button type="submit" class="btn btn-lg btn-success">Crea evento</button>
                     </div>
                     
                 </form>
