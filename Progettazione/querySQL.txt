@@ -1,0 +1,9 @@
+------------------------HOME------------------------------------
+----prende le 3 news piu recenti (se presenti nel db)-----------
+
+SELECT * 
+FROM `NEWS`
+ORDER BY data DESC, ora DESC
+LIMIT 3
+
+----------------------------------------------------------------
