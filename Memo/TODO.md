@@ -1,12 +1,13 @@
 ## ELE
 
-- [ ] Finire pagina info e contatti
-- [ ] Pagina news
-- [ ] Pagina eventi
+- [x] Finire pagina info e contatti
+- [x] Pagina news
+- [x] Pagina eventi
+- [ ] Cagarsi questo file
 
 ## MARCO
 
-- [ ] Fixare sidebar
-- [ ] JS sidebar
+- [x] Fixare sidebar
+- [x] JS sidebar
 - [ ] JS del navmenu
-- [ ] Selezione del navmenu
+- [x] Selezione del navmenu
