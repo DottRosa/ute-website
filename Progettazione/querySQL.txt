@@ -79,9 +79,21 @@ FROM `LEZIONE_FUORI_SEDE`
 WHERE anno=2017
 ORDER BY ordine
 
-------------------------PIANETI-----------------------
+------------------------PIANETI----------------------------------
 
 SELECT * 
 FROM `PIANETA`
 WHERE anno=2017
 
+-------------------------ADMIN--------------------------------
+
+INSERT INTO `Sql1091730_1`.`ADMIN` (`username`, `password`, `permesso`) 
+VALUES ('aaa', 'aaa', '1');
+
+
+UPDATE `Sql1091730_1`.`ADMIN` 
+SET `password` = 'bbb' 
+WHERE `ADMIN`.`username` = 'aaa';
+
+DELETE FROM `Sql1091730_1`.`ADMIN` 
+WHERE `ADMIN`.`username` = 'eee';
