@@ -24,6 +24,9 @@ require("php_files/funzioni.php");
         <script src="js/moment/min/moment-with-locales.min.js"></script>
         <script src="js/bootstrap-datetimepicker.min.js"></script>
         
+        <script src="js/ckeditor/ckeditor.js"></script>
+        <script src="js/ckeditor/adapters/jquery.js"></script>  
+        
         <script src="js/bootstrap-select.min.js"></script>
         
     </head>
@@ -115,7 +118,7 @@ require("php_files/funzioni.php");
             <div class="row shadow">
                 <h4> Compila e aggiungi il corso </h4>
                 
-                <form>
+                <form method="get" action="np_aggiungi_corso.html">
                     
                     <!-- Nome dell'evento -->
                     <div class="form-group col-xs-12">
@@ -176,12 +179,12 @@ require("php_files/funzioni.php");
                     
                     <div class="form-group col-xs-12"> 
                         <label for="eventDescriptionInput">Descrizione dell'evento</label> <small class="red">(Obbligatorio)</small>
-                        <textarea class="form-control" id="eventDescriptionInput" name="eventDescription" rows="4"></textarea>
+                        <textarea class="form-control editor" id="courseDescription" name="courseDescription" rows="4"></textarea>
                     </div>
                     
                     <div class="form-group col-xs-12">
                         <label for="eventDescriptionInput">Note</label>
-                        <textarea class="form-control" id="eventDescriptionInput" name="eventDescription" rows="4"></textarea>
+                        <textarea class="form-control editor" id="eventDescriptionInput" name="eventDescription" rows="4"></textarea>
                     </div>
 
                     
@@ -203,6 +206,9 @@ require("php_files/funzioni.php");
     
     <!-- Script per la data e l'ora -->
     <script type="text/javascript">
+        
+        $( '.editor' ).ckeditor();
+        
         $(function () {
             
             $('#eventDateInput').datetimepicker({
