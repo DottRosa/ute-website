@@ -47,13 +47,17 @@ ORDER BY c.nome
 
 ----prende tutti i dati relativi ad un corso (anno in corso)-----------
 
-SELECT c.nome, c.durata, t.nome AS tipologia, c.note AS quando, c.min_iscritti, c.max_iscritti, c.descrizione,d1.nome AS docente1_nome, d1.cognome AS docente1_cognome, d1.qualifica AS docente1_qualifica, d2.nome AS docente2_nome, d2.cognome AS docente2_cognome, d2.qualifica AS docente2_qualifica, d3.nome AS docente3_nome, d3.cognome AS docente3_cognome, d3.qualifica AS docente3_qualifica, d4.nome AS docente4_nome, d4.cognome AS docente4_cognome, d4.qualifica AS docente4_qualifica, d5.nome AS docente5_nome, d5.cognome AS docente5_cognome, d5.qualifica AS docente5_qualifica
+SELECT c.nome, c.durata, t.nome AS tipologia, c.note AS quando, c.min_iscritti, c.max_iscritti, c.descrizione
 FROM `CORSO` AS c
 LEFT JOIN TIPOLOGIA AS t ON t.id=c.fk_tipologia
-LEFT JOIN DOCENTE AS d1 ON d1.id=c.fk_docente1
-LEFT JOIN DOCENTE AS d2 ON d2.id=c.fk_docente2
-LEFT JOIN DOCENTE AS d3 ON d3.id=c.fk_docente3
-LEFT JOIN DOCENTE AS d4 ON d4.id=c.fk_docente4
-LEFT JOIN DOCENTE AS d5 ON d5.id=c.fk_docente5
-WHERE c.anno=2017 AND c.nome='ddd'
+WHERE c.anno=2017 AND c.nome='aaa'
+
+----prende tutti i docenti di un corso (anno in corso)-----------
+
+SELECT d.nome AS docente_nome, d.cognome AS docente_cognome, d.qualifica AS docente_qualifica
+FROM `DOCENTE_CORSO` AS dc
+LEFT JOIN DOCENTE AS d ON d.id=dc.fk_docente
+LEFT JOIN CORSO AS c ON c.nome=dc.fk_corso AND c.anno=dc.fk_anno
+LEFT JOIN TIPOLOGIA AS t ON t.id=c.fk_tipologia
+WHERE dc.fk_corso='AAA' AND dc.fk_anno=2017
 
