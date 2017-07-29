@@ -161,6 +161,8 @@ Mappa (maps) - https://snazzymaps.com/
 * https://snazzymaps.com/style/8309/asdf
 * https://snazzymaps.com/style/2692/wmc3
 
+Editor per testi del backoffice - http://ckeditor.com/download
+
 ---
 
 
