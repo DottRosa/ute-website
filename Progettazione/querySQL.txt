@@ -79,5 +79,3 @@ FROM `LEZIONE_FUORI_SEDE`
 WHERE anno=2017
 ORDER BY ordine
 
-------------------------LEZIONI FUORI CORSO----------------------
-
