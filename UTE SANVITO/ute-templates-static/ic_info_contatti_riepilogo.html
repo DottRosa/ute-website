@@ -1,0 +1,205 @@
+<?php 
+require("php_files/config.php");
+require("php_files/funzioni.php");	
+?>
+
+<!doctype html>
+<html lang="it">
+    <head>
+        <title> Riepilogo info e contatti </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/backoffice.css" type="text/css">
+        <link rel="stylesheet" href="css/font.css" type="text/css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+    </head>
+    
+    <body class="col-xs-12" style="padding-left: 0px;padding-right:0px">
+        
+        <div class="nav-side-menu col-xs-3" style="padding-left: 0px;padding-right:0px">
+            <div class="brand">
+                <img src="images/ute-logo.png">   
+                <h3> UTE Sanvitese </h3>
+            </div>
+            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+                <div class="menu-list">
+
+                    <ul id="menu-content" class="menu-content collapse out">
+                        
+                        <li class="active">
+                            <a href="dashboard.html">
+                                <i class="fa fa-home" aria-hidden="true"></i> Home
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Nuovo piano annuale
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Modifica corso
+                            </a>
+                        </li>
+                        
+                        <li data-toggle="collapse" data-target="#news" class="collapsed">
+                            <a href="#"><i class="fa fa-exclamation" aria-hidden="true"></i>News <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="news">
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuova news</a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica news</a></li>
+                        </ul>
+                        
+                        <li data-toggle="collapse" data-target="#events" class="collapsed">
+                            <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Eventi <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="events">
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo evento</a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica evento</a></li>
+                        </ul>
+                        
+                        <li data-toggle="collapse" data-target="#admin" class="collapsed">
+                            <a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Amministratori <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="admin">
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo admin </a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Gestisci admin</a></li>
+                        </ul>
+                        
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-columns" aria-hidden="true"></i> Vai al sito
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i> Esci
+                            </a>
+                        </li>
+                    </ul>
+             </div>
+        </div>
+        
+        <div class="col-sm-3"></div>
+        
+        
+        <!-- CONTENUTO -->
+        <main class="col-sm-9 col-xs-12">
+            <div class="row shadow">
+                <h1> Riepilogo info e contatti </h1>
+                <p> Utente connesso: Marco</p>
+            </div>
+
+            <div class="row shadow">
+                <h3> Segreteria </h3>
+                
+                <p>La segreteria rimarrà aperta nei giorni di lunedì, martedì, giovedì e venerdì, dalle ore 15:00 alle ore 18:30, a partire da linedì 29 agosto 2016.</p>
+                
+                <table class="table">
+                        <tr>
+                            <th>Lunedì</th>
+                            <th>Martedì</th>
+                            <th>Mercoledì</th>
+                            <th>Giovedì</th>
+                            <th>Venerdì</th>
+                        </tr>
+                        <tr>
+                            <td>15:00 - 18:30</td>
+                            <td>15:00 - 18:30</td>
+                            <td></td>
+                            <td>15:00 - 18:30</td>
+                            <td>15:00 - 18:30</td>
+                        </tr>
+                    </table>
+                
+                <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                
+            </div>
+            
+            <div class="row shadow">
+                <h3> Iscrizioni </h3>
+                
+                <p>Dal 5 settembre al 23 settembre 2016, dalle ore 15:00 alle ore 18:30.</p>
+                
+                <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                
+            </div>
+            
+            
+            <div class="row shadow">
+                <h3> Info corsi </h3>
+                
+                <p>I corsi avranno svolgimento in orario pomeridiano e serale dal linedì al venerdì a partire da lunedì 3 ottobre 2016 presso la Casa della Gioventù a San Vito al Tagliamnto in via Roma, 13. Eventuali altre sedi verranno comunicate all'atto dell'iscrizione.</p>
+                
+                <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                
+            </div>
+            
+            <div class="row shadow">
+                <h3> Inaugurazione anno accademico </h3>
+                
+                <p>Venerdì 23 settembre 2016 ore 18:00 presso l'Auditorium del Centro Civico di San Vito al Tagliamento.</p>
+                
+                <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                
+            </div>
+            
+            
+            <div class="row shadow">
+                <h3> Cerimonia di chiusura anno accademico </h3>
+                
+                <p>Sabato 29 aprile 2017 presso l'Auditorium del Centro Civico di San Vito al Tagliamento.</p>
+                
+                <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                
+            </div>
+            
+            <div class="row shadow">
+                <h3> Calendario delle lezioni </h3>
+                
+                <p>dal 3 ottobre al 13 aprile 2017.</p>
+                
+                <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                
+            </div>
+            
+            <div class="row shadow">
+                <h3> Vacanze di Natale </h3>
+                
+                <p>dal 17 dicembre 2016 all'8 gennaio 2017</p>
+                
+                <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                
+            </div>
+            
+            <div class="row shadow">
+                <h3> Vacanze di Pasqua </h3>
+                
+                <p>dal 14 aprile 2017 al 23 aprile 2017</p>
+                
+                <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                
+            </div>
+            
+            
+            <div class="row shadow">
+                <p> Gestionale dell'UTE Sanvitese a cura di <a href="">Eleonora Macuglia</a> e <a href="">Marco Rosa</a> - Ultimo aggiornamento Giugno 2017</p>
+            </div>
+            
+        </main>
+        
+	</body>
+</html>
