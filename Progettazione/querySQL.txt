@@ -61,3 +61,12 @@ LEFT JOIN CORSO AS c ON c.nome=dc.fk_corso AND c.anno=dc.fk_anno
 LEFT JOIN TIPOLOGIA AS t ON t.id=c.fk_tipologia
 WHERE dc.fk_corso='AAA' AND dc.fk_anno=2017
 
+------------------------ATTIVITA--------------------------------
+
+----prende tutte le attività dell'anno in corso-----------
+
+SELECT ordine, data, luogo, descrizione
+FROM `ATTIVITA`
+WHERE anno=2017
+ORDER BY ordine
+
