@@ -1,0 +1,175 @@
+<?php 
+require("php_files/config.php");
+require("php_files/funzioni.php");	
+?>
+
+<!doctype html>
+<html lang="it">
+    <head>
+        <title> Aggiungi admin </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/backoffice.css" type="text/css">
+        <link rel="stylesheet" href="css/font.css" type="text/css">
+        
+        <link rel="stylesheet" href="js/bootstrap-datetimepicker.min.css" type="text/css">
+        <link rel="stylesheet" href="js/bootstrap-select.min.css" type="text/css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/moment/moment.js"></script>
+        <script src="js/moment/min/moment-with-locales.min.js"></script>
+        <script src="js/bootstrap-datetimepicker.min.js"></script>
+        
+        <script src="js/ckeditor/ckeditor.js"></script>
+        <script src="js/ckeditor/adapters/jquery.js"></script>  
+        
+        <script src="js/bootstrap-select.min.js"></script>
+        
+    </head>
+    
+    <body class="col-xs-12" style="padding-left: 0px;padding-right:0px">
+        
+        <div class="nav-side-menu col-xs-3" style="padding-left: 0px;padding-right:0px">
+            <div class="brand">
+                <img src="images/ute-logo.png">   
+                <h3> UTE Sanvitese </h3>
+            </div>
+            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+                <div class="menu-list">
+
+                    <ul id="menu-content" class="menu-content collapse out">
+                        
+                        <li class="active">
+                            <a href="dashboard.html">
+                                <i class="fa fa-home" aria-hidden="true"></i> Home
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Nuovo piano annuale
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Modifica corso
+                            </a>
+                        </li>
+                        
+                        <li data-toggle="collapse" data-target="#news" class="collapsed">
+                            <a href="#"><i class="fa fa-exclamation" aria-hidden="true"></i>News <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="news">
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuova news</a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica news</a></li>
+                        </ul>
+                        
+                        <li data-toggle="collapse" data-target="#events" class="collapsed">
+                            <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Eventi <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="events">
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo evento</a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica evento</a></li>
+                        </ul>
+                        
+                        <li data-toggle="collapse" data-target="#admin" class="collapsed">
+                            <a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Amministratori <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </span></a>
+                        </li>
+                        <ul class="sub-menu collapse" id="admin">
+                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo admin </a></li>
+                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Gestisci admin</a></li>
+                        </ul>
+                        
+                        <li>
+                            <a href="dashboard.html">
+                                <i class="fa fa-columns" aria-hidden="true"></i> Vai al sito
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i> Esci
+                            </a>
+                        </li>
+                    </ul>
+             </div>
+        </div>
+        
+        <div class="col-sm-3"></div>
+        
+        
+        <!-- CONTENUTO -->
+        <main class="col-sm-9 col-xs-12">
+            <div class="row shadow">
+                <h1> Aggiunta di un corso al piano </h1>
+                <p> Utente connesso: Marco</p>
+            </div>
+            
+            
+            <div class="row shadow">
+                <h4> Compila e aggiungi il corso </h4>
+                
+                <form method="get" action="np_aggiungi_corso.html">
+                    
+                    <!-- Nome dell'evento -->
+                    <div class="form-group col-xs-12">
+                        <label for="eventNameInput">Username</label>
+                        <input type="text" class="form-control" id="eventNameInput" placeholder="Inserisci il tuo nome">
+                    </div>
+                    
+                    <div class="form-group col-xs-12">
+                        <label for="eventNameInput">Password</label>
+                        <input type="password" class="form-control" id="eventNameInput" placeholder="Inserisci il tuo nome">
+                    </div>
+                    
+                    <div class="form-group col-xs-12">
+                        <label for="eventNameInput">Permesso</label>
+                        <input type="number" class="form-control" id="eventNameInput" min="0" max="1">
+                    </div>
+                    
+                    
+                    
+                    <div class="form-group col-xs-12">
+                        <button type="submit" class="btn btn-lg btn-success">Aggiungi admin</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+            
+            <div class="row shadow">
+                <p> Gestionale di Forum Democratico a cura di <a href="">Marco Rosa</a> - Ultimo aggiornamento Giugno 2017</p>
+            </div>
+            
+        </main>
+        
+	</body>
+    
+    <!-- Script per la data e l'ora -->
+    <script type="text/javascript">
+        
+        $( '.editor' ).ckeditor();
+        
+        $(function () {
+            
+            $('#eventDateInput').datetimepicker({
+                format: 'DD/MM/YYYY',
+                locale:'it'
+            });
+            
+            $('#eventTimeInput').datetimepicker({
+                format: 'LT',
+                locale:'it'
+            });
+        });
+    </script>   
+</html>
