@@ -4,6 +4,7 @@
 
 SELECT * 
 FROM `NEWS`
+WHERE 'timestamp'>='pa_timestamp'
 ORDER BY timestamp DESC
 LIMIT 3
 
