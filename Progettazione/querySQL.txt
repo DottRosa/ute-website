@@ -4,17 +4,17 @@
 
 SELECT * 
 FROM `NEWS`
-ORDER BY data DESC, ora DESC
+ORDER BY timestamp DESC
 LIMIT 3
 
 
 -----------------------MENU-------------------------------------
 
-----prende le news di oggi-----------
+----conta le news di oggi-----------
 
-SELECT COUNT(data) AS daily_news
+SELECT COUNT(timestamp) AS daily_news
 FROM `NEWS` 
-WHERE data=CURDATE()
+WHERE timestamp>=today_midnight
 
 
 ------------------------CORSI-----------------------------------
@@ -85,7 +85,7 @@ SELECT *
 FROM `PIANETA`
 WHERE anno=2017
 
--------------------------ADMIN--------------------------------
+-------------------------G_ADMIN--------------------------------
 
 INSERT INTO `Sql1091730_1`.`ADMIN` (`username`, `password`, `permesso`) 
 VALUES ('aaa', 'aaa', '1');
@@ -97,3 +97,15 @@ WHERE `ADMIN`.`username` = 'aaa';
 
 DELETE FROM `Sql1091730_1`.`ADMIN` 
 WHERE `ADMIN`.`username` = 'eee';
+
+-------------------------G_NEWS--------------------------------
+
+INSERT INTO `Sql1091730_1`.`NEWS` (`timestamp`, `descrizione`, `icona`) 
+VALUES (CURRENT_TIMESTAMP, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'fa-home');
+
+SELECT * 
+FROM `NEWS`
+WHERE 'timestamp'>='pa_timestamp'
+ORDER BY timestamp DESC;
+
+-------------------------G_--------------------------------
