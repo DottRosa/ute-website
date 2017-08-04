@@ -105,8 +105,8 @@ INSERT INTO `Sql1091730_1`.`NEWS` (`timestamp`, `descrizione`, `icona`)
 VALUES (CURRENT_TIMESTAMP, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'fa-home');
 
 SELECT * 
-FROM `NEWS`
-WHERE 'timestamp'>='pa_timestamp'
+FROM NEWS
+WHERE timestamp>='1501797600000'
 ORDER BY timestamp DESC;
 
 -------------------------G_--------------------------------
