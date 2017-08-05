@@ -62,22 +62,13 @@ LEFT JOIN CORSO AS c ON c.nome=dc.fk_corso AND c.anno=dc.fk_anno
 LEFT JOIN TIPOLOGIA AS t ON t.id=c.fk_tipologia
 WHERE dc.fk_corso='AAA' AND dc.fk_anno=2017
 
-------------------------ATTIVITA---------------------------------
+------------------------EVENTI-----------------------
 
-----prende tutte le attività dell'anno in corso-----------
-
-SELECT ordine, data, luogo, descrizione
-FROM `ATTIVITA`
-WHERE anno=2017
-ORDER BY ordine
-
-------------------------LEZIONI FUORI SEDE-----------------------
-
-----prende tutte le lezioni fuori sede dell'anno in corso-----------
+----prende tutte le attivita dell'anno in corso-----------
 
 SELECT ordine, data, luogo, descrizione
-FROM `LEZIONE_FUORI_SEDE`
-WHERE anno=2017
+FROM EVENTO
+WHERE anno=2018 AND tipo=0
 ORDER BY ordine
 
 ------------------------PIANETI----------------------------------
@@ -109,4 +100,12 @@ FROM NEWS
 WHERE timestamp>='1501797600000'
 ORDER BY timestamp DESC;
 
--------------------------G_--------------------------------
+-------------------------G_EVENTO--------------------------------
+
+INSERT INTO `Sql1091730_1`.`EVENTO` (`id`, `tipo`, `anno`, `ordine`, `data`, `luogo`, `descrizione`) 
+VALUES (NULL, '0', '2018', '1', 'Data da destinarsi', 'Auditorium del Centro Civico', 'Spettacolo teatrale presentato dal gruppo “Recitar Giocando”.Docente e regista Carla Manzon');
+
+UPDATE `Sql1091730_1`.`EVENTO` 
+SET `anno` = '2017'
+WHERE `EVENTO`.`id` = 1;
+
