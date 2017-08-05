@@ -106,8 +106,8 @@ INSERT INTO `Sql1091730_1`.`EVENTO` (`id`, `tipo`, `anno`, `ordine`, `data`, `lu
 VALUES (NULL, '0', '2018', '1', 'Data da destinarsi', 'Auditorium del Centro Civico', 'Spettacolo teatrale presentato dal gruppo “Recitar Giocando”.Docente e regista Carla Manzon');
 
 UPDATE `Sql1091730_1`.`EVENTO` 
-SET `anno` = '2017'
-WHERE `EVENTO`.`id` = 1;
+SET `anno` = '2016', `descrizione` = '' 
+WHERE `EVENTO`.`id` = 5;
 
 -------------------------G_DOCENTE--------------------------------
 
