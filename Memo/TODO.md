@@ -11,4 +11,4 @@
 - [x] JS sidebar
 - [ ] JS del navmenu
 - [x] Selezione del navmenu
-- [] Vedere che Ele si é cagata questo file
+- [ ] Vedere che Ele si é cagata questo file
