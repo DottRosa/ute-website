@@ -3,7 +3,7 @@
 - [x] Finire pagina info e contatti
 - [x] Pagina news
 - [x] Pagina eventi
-- [ ] Cagarsi questo file
+- [x] Cagarsi questo file
 
 ## MARCO
 
@@ -11,3 +11,4 @@
 - [x] JS sidebar
 - [ ] JS del navmenu
 - [x] Selezione del navmenu
+- [] Vedere che Ele si é cagata questo file
