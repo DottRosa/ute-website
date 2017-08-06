@@ -2,7 +2,7 @@
 
 ----prende le 3 news piu recenti (se presenti nel db)-----------
 
-SELECT * 
+SELECT *
 FROM `NEWS`
 WHERE 'timestamp'>='pa_timestamp'
 ORDER BY timestamp DESC
@@ -14,7 +14,7 @@ LIMIT 3
 ----conta le news di oggi-----------
 
 SELECT COUNT(timestamp) AS daily_news
-FROM `NEWS` 
+FROM `NEWS`
 WHERE timestamp>=today_midnight
 
 
@@ -73,41 +73,40 @@ ORDER BY ordine
 
 ------------------------PIANETI----------------------------------
 
-SELECT * 
+SELECT *
 FROM `PIANETA`
 WHERE anno=2017
 
 -------------------------G_ADMIN--------------------------------
 
-INSERT INTO `Sql1091730_1`.`ADMIN` (`username`, `password`, `permesso`) 
+INSERT INTO `Sql1091730_1`.`ADMIN` (`username`, `password`, `permesso`)
 VALUES ('aaa', 'aaa', '1');
 
 
-UPDATE `Sql1091730_1`.`ADMIN` 
-SET `password` = 'bbb' 
+UPDATE `Sql1091730_1`.`ADMIN`
+SET `password` = 'bbb'
 WHERE `ADMIN`.`username` = 'aaa';
 
-DELETE FROM `Sql1091730_1`.`ADMIN` 
+DELETE FROM `Sql1091730_1`.`ADMIN`
 WHERE `ADMIN`.`username` = 'eee';
 
 -------------------------G_NEWS--------------------------------
 
-INSERT INTO `Sql1091730_1`.`NEWS` (`timestamp`, `descrizione`, `icona`) 
+INSERT INTO `Sql1091730_1`.`NEWS` (`timestamp`, `descrizione`, `icona`)
 VALUES (CURRENT_TIMESTAMP, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'fa-home');
 
-SELECT * 
+SELECT *
 FROM NEWS
 WHERE timestamp>='1501797600000'
 ORDER BY timestamp DESC;
 
 -------------------------G_EVENTO--------------------------------
 
-INSERT INTO `Sql1091730_1`.`EVENTO` (`id`, `tipo`, `anno`, `ordine`, `data`, `luogo`, `descrizione`) 
-VALUES (NULL, '0', '2018', '1', 'Data da destinarsi', 'Auditorium del Centro Civico', 'Spettacolo teatrale presentato dal gruppo “Recitar Giocando”.Docente e regista Carla Manzon');
+INSERT INTO `Sql1091730_1`.`EVENTO` (`id`, `tipo`, `anno`, `ordine`, `data`, `luogo`, `descrizione`)
+VALUES (NULL, '0', '2018', '1', 'Data da destinarsi', 'Auditorium del Centro Civico', 'Spettacolo teatrale...');
 
-UPDATE `Sql1091730_1`.`EVENTO` 
-SET `anno` = '2016', `descrizione` = '' 
+UPDATE `Sql1091730_1`.`EVENTO`
+SET `anno` = '2016', `descrizione` = ''
 WHERE `EVENTO`.`id` = 5;
 
--------------------------G_DOCENTE--------------------------------
-
+-------------------------G_DOCENTE-------------------------------
