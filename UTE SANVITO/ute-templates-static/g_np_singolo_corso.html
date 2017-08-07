@@ -1,6 +1,6 @@
-<?php 
+<?php
 require("php_files/config.php");
-require("php_files/funzioni.php");	
+require("php_files/funzioni.php");
 ?>
 
 <!doctype html>
@@ -12,19 +12,19 @@ require("php_files/funzioni.php");
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/backoffice.css" type="text/css">
         <link rel="stylesheet" href="css/font.css" type="text/css">
-		
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        
+
     </head>
-    
+
     <body class="col-xs-12" style="padding-left: 0px;padding-right:0px">
-        
+
         <div class="nav-side-menu col-xs-3" style="padding-left: 0px;padding-right:0px">
             <div class="brand">
-                <img src="images/ute-logo.png">   
+                <img src="images/ute-logo.png">
                 <h3> UTE Sanvitese </h3>
             </div>
             <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
@@ -32,25 +32,25 @@ require("php_files/funzioni.php");
                 <div class="menu-list">
 
                     <ul id="menu-content" class="menu-content collapse out">
-                        
+
                         <li class="active">
                             <a href="dashboard.html">
                                 <i class="fa fa-home" aria-hidden="true"></i> Home
                             </a>
                         </li>
-                        
+
                         <li>
                             <a href="dashboard.html">
                                 <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Nuovo piano annuale
                             </a>
                         </li>
-                        
+
                         <li>
                             <a href="dashboard.html">
                                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Modifica corso
                             </a>
                         </li>
-                        
+
                         <li data-toggle="collapse" data-target="#news" class="collapsed">
                             <a href="#"><i class="fa fa-exclamation" aria-hidden="true"></i>News <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
         </span></a>
@@ -59,7 +59,7 @@ require("php_files/funzioni.php");
                             <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuova news</a></li>
                             <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica news</a></li>
                         </ul>
-                        
+
                         <li data-toggle="collapse" data-target="#events" class="collapsed">
                             <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Eventi <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
         </span></a>
@@ -68,7 +68,7 @@ require("php_files/funzioni.php");
                             <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo evento</a></li>
                             <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica evento</a></li>
                         </ul>
-                        
+
                         <li data-toggle="collapse" data-target="#admin" class="collapsed">
                             <a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Amministratori <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
         </span></a>
@@ -77,7 +77,7 @@ require("php_files/funzioni.php");
                             <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo admin </a></li>
                             <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Gestisci admin</a></li>
                         </ul>
-                        
+
                         <li>
                             <a href="dashboard.html">
                                 <i class="fa fa-columns" aria-hidden="true"></i> Vai al sito
@@ -92,24 +92,30 @@ require("php_files/funzioni.php");
                     </ul>
              </div>
         </div>
-        
+
         <div class="col-sm-3"></div>
-        
-        
+
+
         <!-- CONTENUTO -->
         <main class="col-sm-9 col-xs-12">
             <div class="row shadow">
-                <h1> Informatica </h1>
-                <p> Utente connesso: Marco</p>
+                <h1> Dettagli Corso - Informatica </h1>
+                <ol class="breadcrumb">
+                    <li><a href="g_np_docenti.html">Docenti</a></li>
+                    <li><a href="g_np_lista_corsi.html">Nuovi Corsi</a></li>
+                    <li><a href="g_np_eventi.html">Eventi</a></li>
+                    <li><a href="">Info</a></li>
+                    <li><a href="">Documenti</a></li>
+                </ol>
             </div>
-            
+
             <div class="row shadow right">
                 <a href="" class="btn btn-lg btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
                 <a href="" class="btn btn-lg btn-danger"><i class="fa fa-trash" aria-hidden="true"></i> Elimina </a>
             </div>
-            
+
             <div class="row shadow">
-                <h3> Dettagli del corso di "Informatica" </h3>
+                <h3> Dettagli del corso: "Informatica" </h3>
                 <ul>
                     <li><strong>Nome del corso</strong>: Informatica</li>
                     <li><strong>Durata</strong>: annuale</li>
@@ -120,15 +126,19 @@ require("php_files/funzioni.php");
                     <li><strong>Descrizione</strong>: bla bla bla</li>
                     <li><strong>Note</strong>: bskgsv jdsvkfk vdfkbdkd dk </li>
                 </ul>
-                
+
             </div>
-            
-            
+
+            <div class="row shadow left">
+                <a href="g_np_lista_corsi.html" class="btn btn-lg btn-danger"><i class="fa fa-arrow-left" aria-hidden="true"></i> Torna ai corsi </a>
+            </div>
+
+
             <div class="row shadow">
                 <p> Gestionale dell'UTE Sanvitese a cura di <a href="">Eleonora Macuglia</a> e <a href="">Marco Rosa</a> - Ultimo aggiornamento Giugno 2017</p>
             </div>
-            
+
         </main>
-        
+
 	</body>
 </html>

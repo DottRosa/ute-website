@@ -99,78 +99,132 @@ require("php_files/funzioni.php");
         <!-- CONTENUTO -->
         <main class="col-sm-9 col-xs-12">
             <div class="row shadow">
-                <h1> Nuovo piano - Nuovi corsi </h1>
+                <h1> Nuovo piano - Eventi </h1>
                 <ol class="nav nav-tabs nav-justified">
                     <li><a href="g_np_docenti.html">Docenti</a></li>
-                    <li class="active"><a href="g_np_lista_corsi.html">Nuovi Corsi</a></li>
-                    <li><a href="g_np_eventi.html">Eventi</a></li>
+                    <li><a href="g_np_lista_corsi.html">Nuovi Corsi</a></li>
+                    <li class="active"><a href="g_np_eventi.html">Eventi</a></li>
                     <li><a href="">Info</a></li>
                     <li><a href="">Documenti</a></li>
                 </ol>
             </div>
 
             <div class="row shadow left">
-                <p style="font-size:12pt;">Inserisci tutti i corsi che saranno presenti nel nuovo piano annuale e le relative informazioni.</p>
-            </div>
-
-            <div class="row shadow left">
-                <a href="" class="btn btn-lg btn-success"><i class="fa fa-plus-circle" aria-hidden="true"></i> Aggiungi corso </a>
+                <p style="font-size:12pt;">Inserisci tutti gli eventi che verranno proposti per il nuovo anno. Distinguendoli tra "Attivitá culturali ricreative" e "Lezioni fuori sede e viaggi di studio".</p>
             </div>
 
             <div class="row shadow">
-                <h4> I corsi del nuovo anno </h4>
+                <h2> Attivitá culturali ricreative </h2>
+
                 <table class="table table-hover events-table table-responsive">
                 <thead>
                     <tr>
-                        <th>Nome</th>
+                        <th>Ordine</th>
+                        <th>Data</th>
+                        <th>Luogo</th>
+                        <th>Descrizione</th>
                         <th>Gestione</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>
-                            <a href="event-details.html">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue, velit sit amet aliquet pellentesque
-                            </a>
-                        </td>
-                        <td>
-                            <a href="g_np_singolo_corso.html" class="btn btn-primary"><i class="fa fa-info-circle" aria-hidden="true"></i> Dettagli </a>
-                        </td>
+                       <td>1</td>
+                       <td>2 ott 2017</td>
+                       <td>Lorem Ipsum</td>
+                       <td>Dolor sit amet, consectetur adipiscing elit.</td>
+                       <td>
+                           <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                       </td>
                     </tr>
 
                     <tr>
-                        <td>
-                            <a href="event-details.html">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue, velit sit amet aliquet pellentesque
-                            </a>
-                        </td>
-                        <td>
-                            <a href="g_np_singolo_corso.html" class="btn btn-primary"><i class="fa fa-info-circle" aria-hidden="true"></i> Dettagli </a>
-                        </td>
+                       <td>2</td>
+                       <td>23 genn 2018</td>
+                       <td>Lorem Ipsum</td>
+                       <td>Dolor sit amet, consectetur adipiscing elit.</td>
+                       <td>
+                           <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                       </td>
                     </tr>
 
                     <tr>
-                        <td>
-                            <a href="event-details.html">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue, velit sit amet aliquet pellentesque
-                            </a>
-                        </td>
-                        <td>
-                            <a href="g_np_singolo_corso.html" class="btn btn-primary"><i class="fa fa-info-circle" aria-hidden="true"></i> Dettagli </a>
-                        </td>
+                       <td>3</td>
+                       <td>12 aprile 2018</td>
+                       <td>Lorem Ipsum</td>
+                       <td>Dolor sit amet, consectetur adipiscing elit.</td>
+                       <td>
+                           <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                       </td>
                     </tr>
 
                 </tbody>
               </table>
 
+              <div class="left">
+                 <a href="" class="btn btn-lg btn-success"><i class="fa fa-plus-circle" aria-hidden="true"></i> Aggiungi </a>
+             </div>
+
+            </div>
+
+            <div class="row shadow">
+                <h2> Lezioni fuori sede e viaggi di studio </h2>
+
+                <table class="table table-hover events-table table-responsive">
+                <thead>
+                    <tr>
+                        <th>Ordine</th>
+                        <th>Data</th>
+                        <th>Luogo</th>
+                        <th>Descrizione</th>
+                        <th>Gestione</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td>1</td>
+                       <td>2 ott 2017</td>
+                       <td>Lorem Ipsum</td>
+                       <td>Dolor sit amet, consectetur adipiscing elit.</td>
+                       <td>
+                           <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                       </td>
+                    </tr>
+
+                    <tr>
+                       <td>2</td>
+                       <td>23 genn 2018</td>
+                       <td>Lorem Ipsum</td>
+                       <td>Dolor sit amet, consectetur adipiscing elit.</td>
+                       <td>
+                           <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                       </td>
+                    </tr>
+
+                    <tr>
+                       <td>3</td>
+                       <td>12 aprile 2018</td>
+                       <td>Lorem Ipsum</td>
+                       <td>Dolor sit amet, consectetur adipiscing elit.</td>
+                       <td>
+                           <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
+                       </td>
+                    </tr>
+
+                </tbody>
+              </table>
+
+              <div class="left">
+                 <a href="" class="btn btn-lg btn-success"><i class="fa fa-plus-circle" aria-hidden="true"></i> Aggiungi </a>
+             </div>
+
             </div>
 
             <div class="row shadow" >
                <div class="left">
-                   <a href="g_np_docenti.html" class="btn btn-lg btn-danger right"><i class="fa fa-arrow-left" aria-hidden="true"></i> Docenti </a>
+                   <a href="g_np_lista_corsi.html" class="btn btn-lg btn-danger right"><i class="fa fa-arrow-left" aria-hidden="true"></i> Corsi </a>
                </div>
                <div class="right">
-                   <a href="g_np_eventi.html" class="btn btn-lg btn-danger right"> Eventi <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                   <a href="" class="btn btn-lg btn-danger right"> Info <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                </div>
             </div>
 
