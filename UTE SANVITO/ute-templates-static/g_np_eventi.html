@@ -220,12 +220,40 @@ require("php_files/funzioni.php");
             </div>
 
             <div class="row shadow" >
-               <div class="left">
-                   <a href="g_np_lista_corsi.html" class="btn btn-lg btn-danger right"><i class="fa fa-arrow-left" aria-hidden="true"></i> Corsi </a>
+               <div class="pull-left">
+                   <a href="g_np_lista_corsi.html" class="btn btn-lg btn-warning right"><i class="fa fa-arrow-left" aria-hidden="true"></i> Corsi </a>
                </div>
-               <div class="right">
-                   <a href="" class="btn btn-lg btn-danger right"> Info <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+               <div class="pull-right">
+                   <a href="" class="btn btn-lg btn-warning right"> Info <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                </div>
+            </div>
+
+            <!-- Pulsante per savare piano annuale definitivamente-->
+
+            <div class="row shadow center">
+               <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#finalSave">
+                <i class="fa fa-floppy-o" aria-hidden="true"></i> Salva
+              </button>
+            </div>
+
+
+            <!-- Conferma del nuovo piano annuale -->
+            <div class="modal fade" id="finalSave" tabindex="-1" role="dialog" aria-labelledby="finalSaveLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="finalSaveLabel">Salva Piano Annuale</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Premendo su "Salva" cancellerai i dati relativi al vecchio anno (corsi, eventi, news, info, documenti caricati) e inserirai quelli relativi al nuovo piano annuale.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Salva</button>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="row shadow">
