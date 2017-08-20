@@ -22,142 +22,56 @@ require("php_files/funzioni.php");
     
     <body class="col-xs-12" style="padding-left: 0px;padding-right:0px">
         
-        <div class="nav-side-menu col-xs-3" style="padding-left: 0px;padding-right:0px">
-            <div class="brand">
-                <img src="images/ute-logo.png">   
-                <h3> UTE Sanvitese </h3>
-            </div>
-            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
-
-                <div class="menu-list">
-
-                    <ul id="menu-content" class="menu-content collapse out">
-                        
-                        <li class="active">
-                            <a href="dashboard.html">
-                                <i class="fa fa-home" aria-hidden="true"></i> Home
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="dashboard.html">
-                                <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Nuovo piano annuale
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="dashboard.html">
-                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Modifica corso
-                            </a>
-                        </li>
-                        
-                        <li data-toggle="collapse" data-target="#news" class="collapsed">
-                            <a href="#"><i class="fa fa-exclamation" aria-hidden="true"></i>News <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
-        </span></a>
-                        </li>
-                        <ul class="sub-menu collapse" id="news">
-                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuova news</a></li>
-                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica news</a></li>
-                        </ul>
-                        
-                        <li data-toggle="collapse" data-target="#events" class="collapsed">
-                            <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>Eventi <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
-        </span></a>
-                        </li>
-                        <ul class="sub-menu collapse" id="events">
-                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo evento</a></li>
-                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica evento</a></li>
-                        </ul>
-                        
-                        <li data-toggle="collapse" data-target="#admin" class="collapsed">
-                            <a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Amministratori <span class="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i>
-        </span></a>
-                        </li>
-                        <ul class="sub-menu collapse" id="admin">
-                            <li><a href="add-event.html"><i class="fa fa-plus-circle" aria-hidden="true"></i> Nuovo admin </a></li>
-                            <li><a href="events-archive.html"><i class="fa fa-pencil" aria-hidden="true"></i> Gestisci admin</a></li>
-                        </ul>
-                        
-                        <li>
-                            <a href="dashboard.html">
-                                <i class="fa fa-columns" aria-hidden="true"></i> Vai al sito
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-sign-out" aria-hidden="true"></i> Esci
-                            </a>
-                        </li>
-                    </ul>
-             </div>
-        </div>
-        
-        <div class="col-sm-3"></div>
-        
-        
+       
         <!-- CONTENUTO -->
-        <main class="col-sm-9 col-xs-12">
+        <main class="col-xs-12">
             <div class="row shadow">
                 <h1> Home </h1>
                 <p> Utente connesso: Marco</p>
             </div>
             
             <div class="row shadow">
-                <h4> Le ultime news </h4>
-                <table class="table table-hover events-table table-responsive">
-                <thead>
-                    <tr>
-                        <th>Testo</th>
-                        <th>Data pubblicazione</th>
-                        <th>Gestione</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <a href="event-details.html">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue, velit sit amet aliquet pellentesque
-                            </a>
-                        </td>
-                        <td>
-                            18 Agosto 2017
-                        </td>
-                        <td>
-                            <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <a href="event-details.html">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue, velit sit amet aliquet pellentesque
-                            </a>
-                        </td>
-                        <td>
-                            18 Agosto 2017
-                        </td>
-                        <td>
-                            <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <a href="event-details.html">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue, velit sit amet aliquet pellentesque
-                            </a>
-                        </td>
-                        <td>
-                            18 Agosto 2017
-                        </td>
-                        <td>
-                            <a href="" class="btn btn-primary"><i class="fa fa-pencil" aria-hidden="true"></i> Modifica </a>
-                        </td>
-                    </tr>
-                </tbody>
-              </table>
                 
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>News</h3>
+                            <p>Visualizza le news e creane di nuove.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Vai alle news</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Corsi</h3>
+                            <p>Visualizza i corsi e creane di nuovi</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Vai ai corsi</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Eventi</h3>
+                            <p>Visualizza gli eventi e creane di nuovi.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Vai agli eventi</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Docenti</h3>
+                            <p>Visualizza tutti i docenti e aggiungine di nuovi.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Vai agli eventi</a></p>
+                        </div>
+                    </div>
+                </div>
+            
             </div>
             
             
