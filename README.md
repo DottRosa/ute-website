@@ -163,6 +163,8 @@ Mappa (maps) - https://snazzymaps.com/
 
 Editor per testi del backoffice - http://ckeditor.com/download
 
+Barra di caricamento pagina: http://github.hubspot.com/pace/docs/welcome/
+
 ---
 
 
